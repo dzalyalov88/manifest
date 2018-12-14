@@ -1,0 +1,7 @@
+$(INVITATION_TITLE)
+
+$(JOIN_BY_PHONE)
+
+$(JOIN_FROM_MOBILE)$(SPACE_AFTER_COLON)tel:$(bridgeNumber),,,$(room)
+
+$(JOIN_BY_BROWSER)$(SPACE_AFTER_COLON)$(conferenceJoinUrl)

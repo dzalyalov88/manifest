@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
+  <Id>050087F1-16B5-437B-87E5-EC673AAC2DB3</Id>
+  <Version>3.4.5.10</Version>
+  <ProviderName>Avaya Inc.</ProviderName>
+  <DefaultLocale>en-us</DefaultLocale>
+  <DisplayName DefaultValue="Avaya Meeting Scheduler">
+    <Override Locale="cs-cz" Value="Plánovač schůzek Avaya" />
+    <Override Locale="da-dk" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="de-de" Value="Besprechungsplaner von Avaya" />
+    <Override Locale="es-es" Value="Programador de Avaya Meeting" />
+    <Override Locale="fr-fr" Value="Ordonnanceur Avaya Meeting" />
+    <Override Locale="hu-hu" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="id-id" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="it-it" Value="Strumento di pianificazione delle riunioni Avaya" />
+    <Override Locale="ja-jp" Value="Avaya 会議スケジューラ" />
+    <Override Locale="ko-kr" Value="Avaya Meeting Scheduler" />
+    <Override Locale="ms-my" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="nb-no" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="nl-nl" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="pl-pl" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="pt-br" Value="Ferramenta de Agendamento de Reunião Avaya" />
+    <Override Locale="ru-ru" Value="Планировщик собраний Avaya" />
+    <Override Locale="sv-se" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="th-th" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="tr-tr" Value="Avaya Equinox Outlook Add-In" />
+    <Override Locale="zh-cn" Value="Avaya 会议计划程序" />
+    <Override Locale="zh-tw" Value="Avaya Equinox Outlook Add-In" />
+  </DisplayName>
+  <Description DefaultValue="Schedule Avaya Equinox and Avaya Spaces meetings within your Microsoft Outlook calendar.">
+    <Override Locale="cs-cz" Value="Naplánujte schůzku Avaya Equinox či Avaya Spaces přímo z kalendáře Microsoft Outlook." />
+    <Override Locale="da-dk" Value="Denne tilføjelse giver brugerne mulighed for hurtigt at tilføje Equinox-mødeoplysninger til Outlook-møder." />
+    <Override Locale="de-de" Value="Planen Sie Avaya Equinox- und Avaya Spaces-Besprechungen in Ihrem Microsoft Outlook-Kalender." />
+    <Override Locale="es-es" Value="Programar reuniones en Avaya Equinox y Avaya Spaces con su calendario de Microsoft Outlook." />
+    <Override Locale="fr-fr" Value="Planifiez des réunions Avaya Equinox et Avaya Spaces depuis votre calendrier Microsoft Outlook." />
+    <Override Locale="hu-hu" Value="Ez a bővítmény lehetővé teszi a felhasználók számára, hogy az Equinox értekezletek részleteit gyorsan hozzáadják az Outlook értekezletekhez." />
+    <Override Locale="id-id" Value="Add-in ini memungkinkan pengguna menambahkan detail rapat Equinox dengan cepat ke rapat Outlook." />
+    <Override Locale="it-it" Value="Per la pianificazione delle riunioni Avaya Equinox e Avaya Spaces all'interno del calendario di Microsoft Outlook." />
+    <Override Locale="ja-jp" Value="Microsoft Outlook カレンダー内で Avaya Equinox および Avaya Spaces 会議のスケジュールを設定できます。" />
+    <Override Locale="ko-kr" Value="Microsoft Outlook 일정 내에서 Avaya Equinox 및 Avaya Spaces 회의 일정을 예약합니다." />
+    <Override Locale="ms-my" Value="Tambahan ini membolehkan pengguna untuk menambah butiran mesyuarat Equinox ke mesyuarat Outlook dengan pantas." />
+    <Override Locale="nb-no" Value="Dette tillegget lar brukere raskt legge til Equinox møtedetaljer i Outlook-møter." />
+    <Override Locale="nl-nl" Value="Deze invoegtoepassing stelt gebruikers in staat snel details van een Equinox-vergadering toe te voegen aan Outlook-vergaderingen." />
+    <Override Locale="pl-pl" Value="Ten dodatek umożliwia użytkownikom szybkie dodawanie szczegółów spotkania Equinox do spotkań w programie Outlook." />
+    <Override Locale="pt-br" Value="Agende reuniões de Avaya Equinox e Avaya Spaces em seu calendário do Microsoft Outlook." />
+    <Override Locale="ru-ru" Value="Планируйте собрания Avaya Equinox и Avaya Spaces с помощью календаря Microsoft Outlook." />
+    <Override Locale="sv-se" Value="Denna add-in gör det möjligt för användare att snabbt lägga till Equinox-mötesdetaljer till Outlook-möten." />
+    <Override Locale="th-th" Value="โปรแกรมเสริม Add-in นี้ช่วยให้ผู้ใช้สามารถเพิ่มรายละเอียดการประชุม Equinox ได้อย่างรวดเร็วในการประชุม Outlook" />
+    <Override Locale="tr-tr" Value="Bu eklenti, kullanıcıların hızlıca Equinox toplantısı ayrıntılarını Outlook toplantılarına eklemelerini sağlar." />
+    <Override Locale="zh-cn" Value="在 Microsoft Outlook 日历中安排 Avaya Equinox 和 Avaya Spaces 会议。" />
+    <Override Locale="zh-tw" Value="此增益集可讓使用者將 Equinox 會議詳細資料快速新增至 Outlook 會議。" />
+  </Description>
+  <IconUrl DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/64.png" />
+  <HighResolutionIconUrl DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/128.png" />
+  <SupportUrl DefaultValue="https://support.avaya.com/" />
+  <!--
+  <AppDomains>
+    <AppDomain>https://spaces.zang.io</AppDomain>
+    <AppDomain>https://accounts.zang.io</AppDomain>
+    <AppDomain>https://accounts.google.com</AppDomain>
+  </AppDomains>
+-->
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
+  <Requirements>
+    <Sets>
+      <Set Name="MailBox" MinVersion="1.1" />
+    </Sets>
+  </Requirements>
+  <!-- Older clients that don't support add-in commands -->
+  <FormSettings>
+    <Form xsi:type="ItemEdit">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/app/app.html" />
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <!-- Older clients that don't support add-in commands -->
+  <!-- Restricted, ReadItem, ReadWriteItem, ReadWriteMailbox -->
+  <Permissions>ReadWriteItem</Permissions>
+  <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="ItemIs" ItemType="Appointment" FormType="Edit" />
+    <Rule xsi:type="ItemIs" ItemType="Appointment" FormType="Read" />
+  </Rule>
+  <DisableEntityHighlighting>false</DisableEntityHighlighting>
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Requirements>
+      <bt:Sets DefaultMinVersion="1.3">
+        <bt:Set Name="Mailbox" />
+      </bt:Sets>
+    </Requirements>
+    <Hosts>
+      <Host xsi:type="MailHost">
+        <DesktopFormFactor>
+          <FunctionFile resid="bkgUrl" />
+          <ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface">
+            <OfficeTab id="TabDefault">
+              <Group id="grpComposeEquinox">
+                <Label resid="grpEquinoxLabel" />
+                <!-- Task pane button -->
+                <Control xsi:type="Button" id="cmdEditPane">
+                  <Label resid="cmdEditPaneLabel" />
+                  <Supertip>
+                    <Title resid="cmdEditPaneTitle" />
+                    <Description resid="cmdEditPaneDescription" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="equinox16" />
+                    <bt:Image size="32" resid="equinox32" />
+                    <bt:Image size="80" resid="equinox80" />
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <SourceLocation resid="appUrl" />
+                  </Action>
+                </Control>
+                <!-- (STD) Function (UI-less) button -->
+                <Control xsi:type="Button" id="cmdHost">
+                  <Label resid="cmdHostLabel" />
+                  <Supertip>
+                    <Title resid="cmdHostTitle" />
+                    <Description resid="cmdHostDescription" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="join16" />
+                    <bt:Image size="32" resid="join32" />
+                    <bt:Image size="80" resid="join80" />
+                  </Icon>
+                  <Action xsi:type="ExecuteFunction">
+                    <FunctionName>joinMeeting</FunctionName>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+          <ExtensionPoint xsi:type="AppointmentAttendeeCommandSurface">
+            <OfficeTab id="TabDefault">
+              <Group id="grpReadEquinox">
+                <Label resid="grpEquinoxLabel" />
+                <!-- (STD) Function (UI-less) button -->
+                <Control xsi:type="Button" id="cmdJoin">
+                  <Label resid="cmdJoinLabel" />
+                  <Supertip>
+                    <Title resid="cmdJoinTitle" />
+                    <Description resid="cmdJoinDescription" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="join16" />
+                    <bt:Image size="32" resid="join32" />
+                    <bt:Image size="80" resid="join80" />
+                  </Icon>
+                  <Action xsi:type="ExecuteFunction">
+                    <FunctionName>joinMeeting</FunctionName>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <!-- zang icon -->
+        <bt:Image id="equinox16" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/equinox16.png" />
+        <bt:Image id="equinox32" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/equinox32.png" />
+        <bt:Image id="equinox80" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/equinox80.png" />
+        <!-- join icon -->
+        <bt:Image id="join16" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/join16.png?a=a" />
+        <bt:Image id="join32" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/join32.png?a=a" />
+        <bt:Image id="join80" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/img/join80.png?a=a" />
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="appUrl" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/app/app.html" />
+        <bt:Url id="bkgUrl" DefaultValue="https://manage1.esna.com/equinox.mso/3.4.5.10/app/bkg.html" />
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="grpEquinoxLabel" DefaultValue="Equinox Meeting">
+          <bt:Override Locale="cs-cz" Value="Schůzka Equinox" />
+          <bt:Override Locale="da-dk" Value="Equinox-møde" />
+          <bt:Override Locale="de-de" Value="Equinox-Besprechung" />
+          <bt:Override Locale="es-es" Value="Reunión de Equinox" />
+          <bt:Override Locale="fr-fr" Value="Réunion Equinox" />
+          <bt:Override Locale="hu-hu" Value="Equinox értekezlet" />
+          <bt:Override Locale="id-id" Value="Rapat Equinox" />
+          <bt:Override Locale="it-it" Value="Riunione Equinox" />
+          <bt:Override Locale="ja-jp" Value="Equinox 会議" />
+          <bt:Override Locale="ko-kr" Value="Equinox 회의" />
+          <bt:Override Locale="ms-my" Value="Mesyuarat Equinox" />
+          <bt:Override Locale="nb-no" Value="Equinox-møte" />
+          <bt:Override Locale="nl-nl" Value="Equinox-vergadering" />
+          <bt:Override Locale="pl-pl" Value="Spotkanie Equinox" />
+          <bt:Override Locale="pt-br" Value="Reunião do Equinox" />
+          <bt:Override Locale="ru-ru" Value="Собрание Equinox" />
+          <bt:Override Locale="sv-se" Value="Equinox-möte" />
+          <bt:Override Locale="th-th" Value="การประชุม Equinox" />
+          <bt:Override Locale="tr-tr" Value="Equinox Toplantısı" />
+          <bt:Override Locale="zh-cn" Value="Equinox 会议" />
+          <bt:Override Locale="zh-tw" Value="Equinox 會議" />
+        </bt:String>
+        <bt:String id="cmdEditPaneLabel" DefaultValue="Meeting Details">
+          <bt:Override Locale="cs-cz" Value="Podrobnosti schůzky" />
+          <bt:Override Locale="da-dk" Value="Mødeoplysninger" />
+          <bt:Override Locale="de-de" Value="Besprechungsdetails" />
+          <bt:Override Locale="es-es" Value="Detalles de la reunión" />
+          <bt:Override Locale="fr-fr" Value="Détails de la réunion" />
+          <bt:Override Locale="hu-hu" Value="Értekezlet részletei" />
+          <bt:Override Locale="id-id" Value="Detail Rapat" />
+          <bt:Override Locale="it-it" Value="Dettagli della riunione" />
+          <bt:Override Locale="ja-jp" Value="会議の詳細" />
+          <bt:Override Locale="ko-kr" Value="회의 상세 정보" />
+          <bt:Override Locale="ms-my" Value="Butiran mesyuarat" />
+          <bt:Override Locale="nb-no" Value="Møtedetaljer" />
+          <bt:Override Locale="nl-nl" Value="Details van vergadering" />
+          <bt:Override Locale="pl-pl" Value="Szczegóły spotkania" />
+          <bt:Override Locale="pt-br" Value="Detalhes da reunião" />
+          <bt:Override Locale="ru-ru" Value="Сведения о собрании" />
+          <bt:Override Locale="sv-se" Value="Mötesanteckningar" />
+          <bt:Override Locale="th-th" Value="รายละเอียดการประชุม" />
+          <bt:Override Locale="tr-tr" Value="Toplantı Ayrıntıları" />
+          <bt:Override Locale="zh-cn" Value="会议详细信息" />
+          <bt:Override Locale="zh-tw" Value="會議詳細資料" />
+        </bt:String>
+        <bt:String id="cmdEditPaneTitle" DefaultValue="Show Equinox Meeting panel">
+          <bt:Override Locale="cs-cz" Value="Zobrazit panel schůzky Equinox" />
+          <bt:Override Locale="da-dk" Value="Vis Equinox-mødepanel" />
+          <bt:Override Locale="de-de" Value="Equinox-Besprechungsportal anzeigen" />
+          <bt:Override Locale="es-es" Value="Mostrar panel de reunión de Equinox" />
+          <bt:Override Locale="fr-fr" Value="Afficher le volet Réunion Equinox" />
+          <bt:Override Locale="hu-hu" Value="Equinox értekezlet panel megjelenítése" />
+          <bt:Override Locale="id-id" Value="Tunjukkan panel Rapat Equinox" />
+          <bt:Override Locale="it-it" Value="Mostra pannello riunione Equinox" />
+          <bt:Override Locale="ja-jp" Value="Equinox 会議パネルを表示する" />
+          <bt:Override Locale="ko-kr" Value="Equinox 회의 패널 보기" />
+          <bt:Override Locale="ms-my" Value="Tunjukkan panel Mesyuarat Equinox" />
+          <bt:Override Locale="nb-no" Value="Vis Equinox-møtepanel" />
+          <bt:Override Locale="nl-nl" Value="Scherm voor Equinox-vergadering weergeven" />
+          <bt:Override Locale="pl-pl" Value="Wyświetl panel Equinox Meeting" />
+          <bt:Override Locale="pt-br" Value="Exibir o painel de reunião do Equinox" />
+          <bt:Override Locale="ru-ru" Value="Показать панель собрания Equinox" />
+          <bt:Override Locale="sv-se" Value="Visa Equinox mötespanel" />
+          <bt:Override Locale="th-th" Value="แสดงแผงการประชุม Equinox" />
+          <bt:Override Locale="tr-tr" Value="Equinox Toplantısı panelini göster" />
+          <bt:Override Locale="zh-cn" Value="显示 Equinox 会议面板" />
+          <bt:Override Locale="zh-tw" Value="顯示「Equinox 會議」面板" />
+        </bt:String>
+        <bt:String id="cmdJoinLabel" DefaultValue="Join">
+          <bt:Override Locale="cs-cz" Value="Připojit se" />
+          <bt:Override Locale="da-dk" Value="Deltag" />
+          <bt:Override Locale="de-de" Value="Beitreten" />
+          <bt:Override Locale="es-es" Value="Unirse" />
+          <bt:Override Locale="fr-fr" Value="Rejoindre" />
+          <bt:Override Locale="hu-hu" Value="Csatlakozás" />
+          <bt:Override Locale="id-id" Value="Gabung" />
+          <bt:Override Locale="it-it" Value="Partecipa" />
+          <bt:Override Locale="ja-jp" Value="参加" />
+          <bt:Override Locale="ko-kr" Value="참여" />
+          <bt:Override Locale="ms-my" Value="Sertai" />
+          <bt:Override Locale="nb-no" Value="Bli med" />
+          <bt:Override Locale="nl-nl" Value="Deelnemen" />
+          <bt:Override Locale="pl-pl" Value="Dołącz" />
+          <bt:Override Locale="pt-br" Value="Ingressar" />
+          <bt:Override Locale="ru-ru" Value="Присоединиться" />
+          <bt:Override Locale="sv-se" Value="Gå med" />
+          <bt:Override Locale="th-th" Value="เข้าร่วม" />
+          <bt:Override Locale="tr-tr" Value="Katıl" />
+          <bt:Override Locale="zh-cn" Value="加入" />
+          <bt:Override Locale="zh-tw" Value="加入" />
+        </bt:String>
+        <bt:String id="cmdJoinTitle" DefaultValue="Join Equinox Meeting">
+          <bt:Override Locale="cs-cz" Value="Equinox schůzka" />
+          <bt:Override Locale="da-dk" Value="Deltag i Equinox-møde" />
+          <bt:Override Locale="de-de" Value="Equinox-Besprechung beitreten" />
+          <bt:Override Locale="es-es" Value="Unirse a la reunión de Equinox" />
+          <bt:Override Locale="fr-fr" Value="Rejoindre une réunion Equinox" />
+          <bt:Override Locale="hu-hu" Value="Csatlakozás Equinox értekezlethez" />
+          <bt:Override Locale="id-id" Value="Gabung Rapat Equinox" />
+          <bt:Override Locale="it-it" Value="Partecipa a una riunione Equinox" />
+          <bt:Override Locale="ja-jp" Value="Equinox 会議に参加する" />
+          <bt:Override Locale="ko-kr" Value="Equinox 회의 참여" />
+          <bt:Override Locale="ms-my" Value="Sertai Mesyuarat Equinox" />
+          <bt:Override Locale="nb-no" Value="Bli med i Equinox-møte" />
+          <bt:Override Locale="nl-nl" Value="Deelnemen aan Equinox-vergadering" />
+          <bt:Override Locale="pl-pl" Value="Dołącz do spotkania Equinox" />
+          <bt:Override Locale="pt-br" Value="Ingressar em uma reunião do Equinox" />
+          <bt:Override Locale="ru-ru" Value="Присоединиться к собранию Equinox" />
+          <bt:Override Locale="sv-se" Value="Gå med i ett Equinox-möte" />
+          <bt:Override Locale="th-th" Value="เข้าร่วมการประชุม Equinox" />
+          <bt:Override Locale="tr-tr" Value="Equinox Toplantısına Katıl" />
+          <bt:Override Locale="zh-cn" Value="加入 Equinox 会议" />
+          <bt:Override Locale="zh-tw" Value="加入 Equinox 會議" />
+        </bt:String>
+        <bt:String id="cmdHostLabel" DefaultValue="Start">
+          <bt:Override Locale="cs-cz" Value="Zahájit" />
+          <bt:Override Locale="da-dk" Value="Start" />
+          <bt:Override Locale="de-de" Value="Start" />
+          <bt:Override Locale="es-es" Value="Iniciar" />
+          <bt:Override Locale="fr-fr" Value="Démarrer" />
+          <bt:Override Locale="hu-hu" Value="Indítás" />
+          <bt:Override Locale="id-id" Value="Mulai" />
+          <bt:Override Locale="it-it" Value="Avvia" />
+          <bt:Override Locale="ja-jp" Value="開始" />
+          <bt:Override Locale="ko-kr" Value="시작" />
+          <bt:Override Locale="ms-my" Value="Mula" />
+          <bt:Override Locale="nb-no" Value="Start" />
+          <bt:Override Locale="nl-nl" Value="Starten" />
+          <bt:Override Locale="pl-pl" Value="Początek" />
+          <bt:Override Locale="pt-br" Value="Iniciar" />
+          <bt:Override Locale="ru-ru" Value="Начать" />
+          <bt:Override Locale="sv-se" Value="Starta" />
+          <bt:Override Locale="th-th" Value="เริ่ม" />
+          <bt:Override Locale="tr-tr" Value="Başlat" />
+          <bt:Override Locale="zh-cn" Value="开始" />
+          <bt:Override Locale="zh-tw" Value="開始" />
+        </bt:String>
+        <bt:String id="cmdHostTitle" DefaultValue="Start Equinox Meeting">
+          <bt:Override Locale="cs-cz" Value="Zahájit schůzku Equinox" />
+          <bt:Override Locale="da-dk" Value="Start Equinox-møde" />
+          <bt:Override Locale="de-de" Value="Equinox-Besprechung starten" />
+          <bt:Override Locale="es-es" Value="Iniciar reunión de Equinox" />
+          <bt:Override Locale="fr-fr" Value="Démarrer une réunion Equinox" />
+          <bt:Override Locale="hu-hu" Value="Equinox értekezlet indítása" />
+          <bt:Override Locale="id-id" Value="Mulai Rapat Equinox" />
+          <bt:Override Locale="it-it" Value="Inizia una riunione Equinox" />
+          <bt:Override Locale="ja-jp" Value="Equinox 会議を開始する" />
+          <bt:Override Locale="ko-kr" Value="Equinox 회의 시작" />
+          <bt:Override Locale="ms-my" Value="Mulakan Mesyuarat Equinox" />
+          <bt:Override Locale="nb-no" Value="Start Equinox-møte" />
+          <bt:Override Locale="nl-nl" Value="Equinox-vergadering starten" />
+          <bt:Override Locale="pl-pl" Value="Rozpocznij spotkanie Equinox" />
+          <bt:Override Locale="pt-br" Value="Iniciar reunião do Equinox" />
+          <bt:Override Locale="ru-ru" Value="Начать собрание Equinox" />
+          <bt:Override Locale="sv-se" Value="Starta Equinox-möte" />
+          <bt:Override Locale="th-th" Value="เริ่มการประชุม Equinox" />
+          <bt:Override Locale="tr-tr" Value="Equinox Toplantısını Başlat" />
+          <bt:Override Locale="zh-cn" Value="开始 Equinox 会议" />
+          <bt:Override Locale="zh-tw" Value="開始 Equinox 會議" />
+        </bt:String>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="cmdEditPaneDescription" DefaultValue="Show Equinox Meeting panel">
+          <bt:Override Locale="cs-cz" Value="Zobrazit panel schůzky Equinox" />
+          <bt:Override Locale="da-dk" Value="Vis Equinox-mødepanel" />
+          <bt:Override Locale="de-de" Value="Equinox-Besprechungsportal anzeigen" />
+          <bt:Override Locale="es-es" Value="Mostrar panel de reunión de Equinox" />
+          <bt:Override Locale="fr-fr" Value="Afficher le volet Réunion Equinox" />
+          <bt:Override Locale="hu-hu" Value="Equinox értekezlet panel megjelenítése" />
+          <bt:Override Locale="id-id" Value="Tunjukkan panel Rapat Equinox" />
+          <bt:Override Locale="it-it" Value="Mostra pannello riunione Equinox" />
+          <bt:Override Locale="ja-jp" Value="Equinox 会議パネルを表示する" />
+          <bt:Override Locale="ko-kr" Value="Equinox 회의 패널 보기" />
+          <bt:Override Locale="ms-my" Value="Tunjukkan panel Mesyuarat Equinox" />
+          <bt:Override Locale="nb-no" Value="Vis Equinox-møtepanel" />
+          <bt:Override Locale="nl-nl" Value="Scherm voor Equinox-vergadering weergeven" />
+          <bt:Override Locale="pl-pl" Value="Wyświetl panel Equinox Meeting" />
+          <bt:Override Locale="pt-br" Value="Exibir o painel de reunião do Equinox" />
+          <bt:Override Locale="ru-ru" Value="Показать панель собрания Equinox" />
+          <bt:Override Locale="sv-se" Value="Visa Equinox mötespanel" />
+          <bt:Override Locale="th-th" Value="แสดงแผงการประชุม Equinox" />
+          <bt:Override Locale="tr-tr" Value="Equinox Toplantısı panelini göster" />
+          <bt:Override Locale="zh-cn" Value="显示 Equinox 会议面板" />
+          <bt:Override Locale="zh-tw" Value="顯示「Equinox 會議」面板" />
+        </bt:String>
+        <bt:String id="cmdJoinDescription" DefaultValue="Join Equinox meeting">
+          <bt:Override Locale="cs-cz" Value="Equinox schůzka" />
+          <bt:Override Locale="da-dk" Value="Deltag i Equinox-møde" />
+          <bt:Override Locale="de-de" Value="Equinox-Besprechung beitreten" />
+          <bt:Override Locale="es-es" Value="Unirse a la reunión de Equinox" />
+          <bt:Override Locale="fr-fr" Value="Rejoindre une réunion Equinox" />
+          <bt:Override Locale="hu-hu" Value="Csatlakozás Equinox értekezlethez" />
+          <bt:Override Locale="id-id" Value="Gabung rapat Equinox" />
+          <bt:Override Locale="it-it" Value="Partecipa a una riunione Equinox" />
+          <bt:Override Locale="ja-jp" Value="Equinox 会議に参加する" />
+          <bt:Override Locale="ko-kr" Value="Equinox 회의 참여" />
+          <bt:Override Locale="ms-my" Value="Sertai mesyuarat Equinox" />
+          <bt:Override Locale="nb-no" Value="Bli med i Equinox-møte" />
+          <bt:Override Locale="nl-nl" Value="Deelnemen aan Equinox-vergadering" />
+          <bt:Override Locale="pl-pl" Value="Dołącz do spotkania Equinox" />
+          <bt:Override Locale="pt-br" Value="Ingressar em uma reunião do Equinox" />
+          <bt:Override Locale="ru-ru" Value="Присоединиться к собранию Equinox" />
+          <bt:Override Locale="sv-se" Value="Gå med i ett Equinox-möte" />
+          <bt:Override Locale="th-th" Value="เข้าร่วมการประชุม Equinox" />
+          <bt:Override Locale="tr-tr" Value="Equinox toplantısına katıl" />
+          <bt:Override Locale="zh-cn" Value="加入 Equinox 会议" />
+          <bt:Override Locale="zh-tw" Value="加入 Equinox 會議" />
+        </bt:String>
+        <bt:String id="cmdHostDescription" DefaultValue="Start Equinox meeting">
+          <bt:Override Locale="cs-cz" Value="Zahájit schůzku Equinox" />
+          <bt:Override Locale="da-dk" Value="Start Equinox-møde" />
+          <bt:Override Locale="de-de" Value="Equinox-Besprechung starten" />
+          <bt:Override Locale="es-es" Value="Iniciar reunión de Equinox" />
+          <bt:Override Locale="fr-fr" Value="Démarrer une réunion Equinox" />
+          <bt:Override Locale="hu-hu" Value="Equinox értekezlet indítása" />
+          <bt:Override Locale="id-id" Value="Mulai rapat Equinox" />
+          <bt:Override Locale="it-it" Value="Inizia una riunione Equinox" />
+          <bt:Override Locale="ja-jp" Value="Equinox 会議を開始する" />
+          <bt:Override Locale="ko-kr" Value="Equinox 회의 시작" />
+          <bt:Override Locale="ms-my" Value="Mulakan mesyuarat Equinox" />
+          <bt:Override Locale="nb-no" Value="Start Equinox-møte" />
+          <bt:Override Locale="nl-nl" Value="Equinox-vergadering starten" />
+          <bt:Override Locale="pl-pl" Value="Rozpocznij spotkanie Equinox" />
+          <bt:Override Locale="pt-br" Value="Iniciar reunião do Equinox" />
+          <bt:Override Locale="ru-ru" Value="Начать собрание Equinox" />
+          <bt:Override Locale="sv-se" Value="Starta Equinox-möte" />
+          <bt:Override Locale="th-th" Value="เริ่มการประชุม Equinox" />
+          <bt:Override Locale="tr-tr" Value="Equinox toplantısını başlat" />
+          <bt:Override Locale="zh-cn" Value="开始 Equinox 会议" />
+          <bt:Override Locale="zh-tw" Value="開始 Equinox 會議" />
+        </bt:String>
+      </bt:LongStrings>
+    </Resources>
+  </VersionOverrides>
+</OfficeApp>
