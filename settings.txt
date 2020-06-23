@@ -67,7 +67,8 @@ SET FNE_SETUP_DELAY 3
 SET VIDEO_MAX_BANDWIDTH_ANY_NETWORK 1792
 SET PHONE_NUMBER_PRIORITY "work,mobile,home"
 SET FNUSACENABLE 16135959741
-SET TRUSTCERTS "https://dzalyalov88.github.io/manifest/trust.crt,https://dzalyalov88.github.io/manifest/SMGRCA.crt,https://dzalyalov88.github.io/manifest/1.pem,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4231smgr.cacert.crt,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4894-vm02.csi71.lab_csi71-CA.crt"
+#https://dzalyalov88.github.io/manifest/trust.crt,https://dzalyalov88.github.io/manifest/SMGRCA.crt,
+SET TRUSTCERTS "https://dzalyalov88.github.io/manifest/1.pem,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4231smgr.cacert.crt,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4894-vm02.csi71.lab_csi71-CA.crt"
 SET AUTO_AWAY_TIME 10
 SET LOG_VERBOSITY 1
 SET ANALYTICSENABLED 0
