@@ -67,7 +67,7 @@ SET FNE_SETUP_DELAY 3
 SET VIDEO_MAX_BANDWIDTH_ANY_NETWORK 1792
 SET PHONE_NUMBER_PRIORITY "work,mobile,home"
 SET FNUSACENABLE 16135959741
-SET TRUSTCERTS "https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4231smgr.cacert.crt,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4894-vm02.csi71.lab_csi71-CA.crt"
+SET TRUSTCERTS "https://dzalyalov88.github.io/manifest/trust.crt,https://dzalyalov88.github.io/manifest/SMGRCA.crt,https://dzalyalov88.github.io/manifest/SMGRCA.pem,https://dzalyalov88.github.io/manifest/trust.pem,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4231smgr.cacert.crt,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4894-vm02.csi71.lab_csi71-CA.crt"
 SET AUTO_AWAY_TIME 10
 SET LOG_VERBOSITY 1
 SET ANALYTICSENABLED 0
@@ -90,11 +90,10 @@ SET AUTOCONFIG_USESSO 1
 SET ENHDIALSTAT 0
 SET EWSSERVERADDRESS owa.mera.com
 SET EWSUSERNAME "dinar.zalyalov"
-SET EWSPASSWORD "12Grt373"
+SET EWSPASSWORD "12Grt380"
 SET ACSENABLED 1
 SET CONFERENCE_FQDN_SIP_DIAL_LIST csi71-aawg.richlab.avaya.com
 SET FNUIDLEAPPEARANCESELECT 16135959740
 SET UNIFIEDPORTALENABLED 1
-SET SHOW_EQUINOX_MEETING_PANEL_IN_TOM 0
 SET LOCKED_PREFERENCES ""
-SET OBSCURE_PREFERENCES "SHOW_EQUINOX_MEETING_PANEL_IN_TOM"
+SET OBSCURE_PREFERENCES ""
