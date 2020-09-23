@@ -99,4 +99,4 @@ SET FNUIDLEAPPEARANCESELECT 16135959740
 SET UNIFIEDPORTALENABLED 1
 SET LOCKED_PREFERENCES ""
 SET OBSCURE_PREFERENCES ""
-SET TRUSTCERTS "https://dzalyalov88.github.io/manifest/server4231smgr.cacert.crt,https://https://dzalyalov88.github.io/manifest/server4894-vm02.csi71.lab_csi71-CA.crt"
+SET TRUSTCERTS "https://dzalyalov88.github.io/manifest/server4231smgr.cacert.crt,https://dzalyalov88.github.io/manifest/server4894-vm02.csi71.lab_csi71-CA.crt"
