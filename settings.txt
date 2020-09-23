@@ -99,3 +99,4 @@ SET FNUIDLEAPPEARANCESELECT 16135959740
 SET UNIFIEDPORTALENABLED 1
 SET LOCKED_PREFERENCES ""
 SET OBSCURE_PREFERENCES ""
+SET TRUSTCERTS "https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4231smgr.cacert.crt,https://csi71-aads.richlab.avaya.com:8443/acs/resources/webdeployment/downloads/server4894-vm02.csi71.lab_csi71-CA.crt"
