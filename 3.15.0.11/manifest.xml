@@ -52,14 +52,14 @@
     <Override Locale="zh-cn" Value="在 Microsoft Outlook 日历中安排 Avaya 会议。" />
     <Override Locale="zh-tw" Value="在 Microsoft Outlook 行事曆內排程 Avaya 會議。" />
   </Description>
-  <IconUrl DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/64.png" />
-  <HighResolutionIconUrl DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/128.png" />
-  <SupportUrl DefaultValue="http://support.avaya.com/" />
+  <IconUrl DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/64.png" />
+  <HighResolutionIconUrl DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/128.png" />
+  <SupportUrl DefaultValue="https://support.avaya.com/" />
   <!--
   <AppDomains>
-    <AppDomain>http://spaces.avayacloud.com</AppDomain>
-    <AppDomain>http://accounts.avayacloud.com</AppDomain>
-    <AppDomain>http://accounts.google.com</AppDomain>
+    <AppDomain>https://spaces.avayacloud.com</AppDomain>
+    <AppDomain>https://accounts.avayacloud.com</AppDomain>
+    <AppDomain>https://accounts.google.com</AppDomain>
   </AppDomains>
 -->
   <Hosts>
@@ -164,13 +164,13 @@
     <Resources>
       <bt:Images>
         <!-- zang icon -->
-        <bt:Image id="equinox16" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/panel16.png" />
-        <bt:Image id="equinox32" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/panel32.png" />
-        <bt:Image id="equinox80" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/panel80.png" />
+        <bt:Image id="equinox16" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/panel16.png" />
+        <bt:Image id="equinox32" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/panel32.png" />
+        <bt:Image id="equinox80" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/panel80.png" />
         <!-- join icon -->
-        <bt:Image id="join16" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/join16.png" />
-        <bt:Image id="join32" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/join32.png" />
-        <bt:Image id="join80" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/join80.png" />
+        <bt:Image id="join16" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/join16.png" />
+        <bt:Image id="join32" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/join32.png" />
+        <bt:Image id="join80" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/join80.png" />
       </bt:Images>
       <bt:Urls>
         <bt:Url id="appUrl" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/app/app.html" />
@@ -504,13 +504,13 @@
       <Resources>
         <bt:Images>
           <!-- zang icon -->
-          <bt:Image id="equinox16" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/panel16.png" />
-          <bt:Image id="equinox32" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/panel32.png" />
-          <bt:Image id="equinox80" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/panel80.png" />
+          <bt:Image id="equinox16" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/panel16.png" />
+          <bt:Image id="equinox32" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/panel32.png" />
+          <bt:Image id="equinox80" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/panel80.png" />
           <!-- join icon -->
-          <bt:Image id="join16" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/join16.png" />
-          <bt:Image id="join32" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/join32.png" />
-          <bt:Image id="join80" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/img/join80.png" />
+          <bt:Image id="join16" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/join16.png" />
+          <bt:Image id="join32" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/join32.png" />
+          <bt:Image id="join80" DefaultValue="https://manage1.esna.com/equinox.mso/3.16.0.11/img/join80.png" />
         </bt:Images>
         <bt:Urls>
           <bt:Url id="appUrl" DefaultValue="https://dzalyalov88.github.io/manifest/3.15.0.11/app/app.html" />
