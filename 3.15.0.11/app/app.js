@@ -6884,9 +6884,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 		  logger.info('hashed faked token4');
           var args = {
             tenantId: self.config.tenantId,
-            token: 'E5B2A3BF7CD511EBAB6D01C6A20B21AB',//tokenInfo.token,
+            token: tokenInfo.token,
             userId: self.config.user,
-            passwordHash: 'iaxlCnTqHvZQ6hactHsmb8VGmZJBXs9dLFZWj4jHCFw=',//tokenInfo.passwordHash,
+            passwordHash: tokenInfo.passwordHash,
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
 		  logger.info('before ');
@@ -6921,11 +6921,11 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
         var args = {
           userId: self.config.user,
-          password: null,//self.config.password
+          password: self.config.password,
           tenantId: self.config.tenantId,
           aliasId: self.config.tenantId
         };
-		logger.info('fake login2. empty password');
+		logger.info('fake login3. empty password');
         logger.cred('getToken: login: ' + Log.getInfo(args), args['password']);
         return self._login(args).then(function (r) {
           // store new token
