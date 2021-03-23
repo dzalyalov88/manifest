@@ -30001,7 +30001,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
           var portalInfo = (Utils.safeParse(res.portalInfo) || {})['Meeting_Portal_Settings'] || [];
           var portalSettings = {};
           portalInfo.forEach(function (portalSetting) {
-            portalSettings[portalSetting['Meeting_Portal_Name']] = portalSetting['Meeting_Portal_Url'];
+            portalSettings[portalSetting['Meeting_Portal_Name']] = "https://tsi81d-aawg.richlab.avaya.com/portal/";//portalSetting['Meeting_Portal_Url'];
           });
           return Promise.resolve(portalSettings);
         }, function (err) {
