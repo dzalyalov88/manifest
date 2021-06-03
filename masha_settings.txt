@@ -1,0 +1,4 @@
+SET APPLICATION_AUTO_START            0
+SET UNIFIEDPORTALENABLED              1
+SET CONFERENCE_PORTAL_URI             https://csi71-aawg.richlab.avaya.com:8443/portal
+SET UNIFIED_PORTAL_SSO                1
