@@ -2421,10 +2421,10 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
       return noop;
     }
       return function () {
-        if (Office.context && Office.context.platform === Office.PlatformType.Mac) {
+        //if (Office.context && Office.context.platform === Office.PlatformType.Mac) {
           return f.call(c, [tag, lev].concat([].slice.call(arguments)).join(' '));
-        }
-        return f.apply(c, [tag, lev].concat([].slice.call(arguments)));
+        //
+        //return f.apply(c, [tag, lev].concat([].slice.call(arguments)));
       }
   }
 
