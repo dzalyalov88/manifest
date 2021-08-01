@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html manifest="all.appcache">
+<body>
+  <button id="Join">Start Meeting</button>
+  <script src="./contrib.js" type="text/javascript"></script>
+  <script>
+    (function () {
+      function open(url, click) {
+        var wnd = window.open(url);
+        console.log('open: ' + url + ':' + !!wnd);
+        if (click || wnd) { // wnd is always null in Outlook + Web even if window.open opens window successfully
+          localStorage.removeItem('__track_join__');
+        }
+      }
+
+      var el = document.getElementById('Join');
+      var search = location.search.substring(1);
+      var url = search;
+      var langidx = search.indexOf('&languageId'); // languageId is set by bkg, other args (like _host_Info) are set by office
+      if (langidx !== -1) {
+        try {
+          url = search.substring(0, langidx);
+          var args = search.substring(langidx + 1);
+          args = args.split('&');
+          var langid;
+          for (var i = 0; i < args.length; i++) {
+            var arg = args[i].split('=');
+            if (arg.length === 2 && arg[0] === 'languageId') {
+              langid = arg[1];
+              break;
+            }
+          }
+          if (langid) {
+            langid = langid.toLowerCase();
+            var langkey = langid.split('-')[0];
+            switch (langid) {
+              case 'pt-br':
+              case 'zh-cn':
+              case 'zh-tw':
+                langkey = langid.replace('-', '_');
+            }
+            fetch('i18n.json').then(function (r) {
+              if (!r.ok) {
+                throw null;
+              }
+              return r.text();
+            }).then(function (text) {
+              try {
+                var langstrings = JSON.parse(text);
+                Object.getOwnPropertyNames(langstrings).forEach(function (lcid) {
+                  langstrings[lcid.toLowerCase()] = langstrings[lcid];
+                });
+
+                var ln_strings = langstrings[langkey] || {};
+                var en_strings = langstrings['en'] || {};
+
+                var start = ln_strings['actionStart'] || en_strings['actionStart'];
+                if (start) {
+                  el.innerText = start;
+                }
+              } catch (e) {
+              }
+            }, function (e) {
+            });
+          }
+        } catch (e) {
+        }
+      }
+      el.addEventListener('click', function (ev) {
+        ev.preventDefault();
+        ev.stopPropagation();
+
+        open(url, true);
+      });
+
+      open(url, false);
+    })();
+  </script>
+</body>
+</html>
