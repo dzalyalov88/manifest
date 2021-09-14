@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 543);
+/******/ 	return __webpack_require__(__webpack_require__.s = 551);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -109,7 +109,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 /* 7 */,
 /* 8 */,
 /* 9 */,
-/* 10 */
+/* 10 */,
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
@@ -461,14 +462,14 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 
 
 /***/ }),
-/* 11 */,
-/* 12 */
+/* 12 */,
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var bind = __webpack_require__(100);
+var bind = __webpack_require__(102);
 
 /*global toString:true*/
 
@@ -820,15 +821,15 @@ module.exports = {
 
 
 /***/ }),
-/* 13 */,
 /* 14 */,
-/* 15 */
+/* 15 */,
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
   'use strict';
 
-  var Utils = __webpack_require__(10);
+  var Utils = __webpack_require__(11);
 
   function noop() {
   }
@@ -838,6 +839,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
       return noop;
     }
       return function () {
+        if ((typeof Office === 'undefined') || (Office.context && Office.context.platform === Office.PlatformType.Mac)) {
+          return f.call(c, [tag, lev].concat([].slice.call(arguments)).join(' '));
+        }
         return f.apply(c, [tag, lev].concat([].slice.call(arguments)));
       }
   }
@@ -914,7 +918,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -959,7 +963,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 17 */,
 /* 18 */,
 /* 19 */,
 /* 20 */,
@@ -999,7 +1002,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 /* 23 */,
 /* 24 */,
 /* 25 */,
-/* 26 */
+/* 26 */,
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
@@ -1026,7 +1030,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -1244,7 +1248,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -1255,19 +1259,19 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Promise = __webpack_require__(3);
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
     var Timer = __webpack_require__(53);
 
-    var loadOffice = __webpack_require__(168)["default"];
+    var loadOffice = __webpack_require__(173)["default"];
 
     var globals = __webpack_require__(21);
 
     var Office = globals.safeProp('Office');
 
-    var officeNative = __webpack_require__(169);
+    var officeNative = __webpack_require__(174);
 
-    var officeStorage = __webpack_require__(170);
+    var officeStorage = __webpack_require__(175);
 
     var logger = Log.createLogger('OFFICE');
     var listSeparator = ';';
@@ -1940,20 +1944,20 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 29 */,
 /* 30 */,
 /* 31 */,
 /* 32 */,
 /* 33 */,
 /* 34 */,
-/* 35 */
+/* 35 */,
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
   'use strict';
 
-  var chrome = __webpack_require__(26);
-  var fetch = __webpack_require__(166);
+  var chrome = __webpack_require__(27);
+  var fetch = __webpack_require__(171);
 
   function fetchproxy(url, opt) {
     if (!chrome || !chrome.runtime || !chrome.runtime.id) {
@@ -1972,7 +1976,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
 
 /***/ }),
-/* 36 */,
 /* 37 */,
 /* 38 */,
 /* 39 */,
@@ -2409,7 +2412,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;  !(__WEBPACK_AMD_DEFINE_RESULT__ = (function 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
   'use strict';
 
-  var Event = __webpack_require__(16);
+  var Event = __webpack_require__(17);
 
   function rpcMethodOneWay() {
   }
@@ -2442,16 +2445,16 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
   'use strict';
 
   var Base = __webpack_require__(42);
-  var LiteralMap = __webpack_require__(110);
-  var Guid = __webpack_require__(111);
+  var LiteralMap = __webpack_require__(112);
+  var Guid = __webpack_require__(113);
   var Promise = __webpack_require__(3);
-  var Utils = __webpack_require__(10);
-  var fetchproxy = __webpack_require__(35);
+  var Utils = __webpack_require__(11);
+  var fetchproxy = __webpack_require__(36);
 
-  var chrome = __webpack_require__(26);
+  var chrome = __webpack_require__(27);
 
-  var JWT = __webpack_require__(217);
-  var OAuthInteractive = __webpack_require__(218);
+  var JWT = __webpack_require__(222);
+  var OAuthInteractive = __webpack_require__(223);
 
   var authMap = new LiteralMap({
     state: 'state', clientUrl: 'redirect_uri', responseType: 'response_type', clientId: 'client_id', resource: 'resource',
@@ -2848,7 +2851,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 /* 61 */,
 /* 62 */,
 /* 63 */,
-/* 64 */
+/* 64 */,
+/* 65 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -3038,14 +3042,13 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 65 */,
 /* 66 */,
 /* 67 */,
 /* 68 */,
 /* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(165);
+module.exports = __webpack_require__(170);
 
 
 /***/ }),
@@ -3103,19 +3106,19 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Promise = __webpack_require__(3);
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
-    var i18n = __webpack_require__(27);
+    var i18n = __webpack_require__(28);
 
-    var office = __webpack_require__(28);
+    var office = __webpack_require__(29);
 
-    var roomsConfig = __webpack_require__(132);
+    var roomsConfig = __webpack_require__(135);
 
-    var spacesConfig = __webpack_require__(133);
+    var spacesConfig = __webpack_require__(136);
 
-    var rooms = __webpack_require__(99);
+    var rooms = __webpack_require__(101);
 
-    var spaces = __webpack_require__(134);
+    var spaces = __webpack_require__(137);
 
     var SOURCE_SPACES = 'spaces';
     var SOURCE_ROOMS = 'rooms';
@@ -3510,7 +3513,7 @@ var ThrowTypeError = $gOPD
 	}())
 	: throwTypeError;
 
-var hasSymbols = __webpack_require__(198)();
+var hasSymbols = __webpack_require__(203)();
 
 var getProto = Object.getPrototypeOf || function (x) { return x.__proto__; }; // eslint-disable-line no-proto
 
@@ -3665,7 +3668,7 @@ var LEGACY_ALIASES = {
 };
 
 var bind = __webpack_require__(73);
-var hasOwn = __webpack_require__(201);
+var hasOwn = __webpack_require__(206);
 var $concat = bind.call(Function.call, Array.prototype.concat);
 var $spliceApply = bind.call(Function.apply, Array.prototype.splice);
 var $replace = bind.call(Function.call, String.prototype.replace);
@@ -3805,7 +3808,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 "use strict";
 
 
-var implementation = __webpack_require__(200);
+var implementation = __webpack_require__(205);
 
 module.exports = Function.prototype.bind || implementation;
 
@@ -3867,10 +3870,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 /* 79 */,
 /* 80 */,
 /* 81 */,
-/* 82 */
+/* 82 */,
+/* 83 */,
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(83)], __WEBPACK_AMD_DEFINE_RESULT__ = (function (_typeof2) {
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(85)], __WEBPACK_AMD_DEFINE_RESULT__ = (function (_typeof2) {
   "use strict";
 
   var _interopRequireDefault = __webpack_require__(44);
@@ -3881,9 +3886,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Base = __webpack_require__(42);
 
-    var fetchproxy = __webpack_require__(35);
+    var fetchproxy = __webpack_require__(36);
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
     var logger = Log.createLogger('API');
 
@@ -4195,7 +4200,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 83 */
+/* 85 */
 /***/ (function(module, exports) {
 
 function _typeof(obj) {
@@ -4222,7 +4227,7 @@ module.exports = _typeof;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
-/* 84 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -4231,32 +4236,32 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var Event = __webpack_require__(16);
+    var Event = __webpack_require__(17);
 
     var Promise = __webpack_require__(3);
 
-    var PromiseCancel = __webpack_require__(213);
+    var PromiseCancel = __webpack_require__(218);
 
-    var Utils = __webpack_require__(10);
+    var Utils = __webpack_require__(11);
 
-    var OAuth = __webpack_require__(214); //var OAuthGeneric = require('/lib/jsl/id/oauth.provider');
+    var OAuth = __webpack_require__(219); //var OAuthGeneric = require('/lib/jsl/id/oauth.provider');
 
 
-    var OAuthGoogle = __webpack_require__(216);
+    var OAuthGoogle = __webpack_require__(221);
 
-    var OAuthSalesforce = __webpack_require__(219);
+    var OAuthSalesforce = __webpack_require__(224);
 
-    var OAuthEsna = __webpack_require__(220);
+    var OAuthEsna = __webpack_require__(225);
 
-    var OAuthMicrosoft = __webpack_require__(221);
+    var OAuthMicrosoft = __webpack_require__(226);
 
-    var OnEsna = __webpack_require__(222);
+    var OnEsna = __webpack_require__(227);
 
-    var channel = __webpack_require__(224);
+    var channel = __webpack_require__(229);
 
-    var schema = __webpack_require__(229);
+    var schema = __webpack_require__(234);
 
-    var states = __webpack_require__(85);
+    var states = __webpack_require__(87);
 
     function updateState(identity, account, state) {
       if (account.state !== state) {
@@ -4797,7 +4802,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 85 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -4823,8 +4828,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 86 */,
-/* 87 */,
 /* 88 */,
 /* 89 */,
 /* 90 */,
@@ -4836,10 +4839,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 /* 96 */,
 /* 97 */,
 /* 98 */,
-/* 99 */
+/* 99 */,
+/* 100 */,
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(69), __webpack_require__(83), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_RESULT__ = (function (_regenerator, _typeof2, _asyncToGenerator2) {
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(69), __webpack_require__(85), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_RESULT__ = (function (_regenerator, _typeof2, _asyncToGenerator2) {
   "use strict";
 
   var _interopRequireDefault = __webpack_require__(44);
@@ -4850,27 +4855,27 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var axios = __webpack_require__(171);
+    var axios = __webpack_require__(176);
 
-    var OAuthService = __webpack_require__(188)["default"];
+    var OAuthService = __webpack_require__(193)["default"];
 
-    var office = __webpack_require__(28);
+    var office = __webpack_require__(29);
 
     var Promise = __webpack_require__(3);
 
     var Storage = __webpack_require__(41);
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
-    var Utils = __webpack_require__(10);
+    var Utils = __webpack_require__(11);
 
-    var RoomsSettings = __webpack_require__(208);
+    var RoomsSettings = __webpack_require__(213);
 
-    var RoomsAPI = __webpack_require__(209);
+    var RoomsAPI = __webpack_require__(214);
 
-    var TOM = __webpack_require__(210);
+    var TOM = __webpack_require__(215);
 
-    var Templates = __webpack_require__(211);
+    var Templates = __webpack_require__(216);
 
     var logger = Log.createLogger('ROOMS');
 
@@ -6150,15 +6155,15 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
           if (r.childMeetingNumber
           /* && r.meetingPin*/
           ) {
-              info.childMeetingNumber = r.childMeetingNumber;
-              res.reservation = {
-                conferencePortalUri: self.config.settings.conferencePortalUri,
-                unifiedPortalUsername: room.userId,
-                meetingId: room.meetingId,
-                childMeetingNumber: r.childMeetingNumber,
-                meetingPin: r.meetingPin || ''
-              };
-            }
+            info.childMeetingNumber = r.childMeetingNumber;
+            res.reservation = {
+              conferencePortalUri: self.config.settings.conferencePortalUri,
+              unifiedPortalUsername: room.userId,
+              meetingId: room.meetingId,
+              childMeetingNumber: r.childMeetingNumber,
+              meetingPin: r.meetingPin || ''
+            };
+          }
 
           logger.info('createInvite res: ' + JSON.stringify(res));
           return Promise.resolve(res);
@@ -6422,7 +6427,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 100 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6440,13 +6445,13 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 101 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 function encode(val) {
   return encodeURIComponent(val).
@@ -6517,7 +6522,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 102 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6529,14 +6534,14 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 103 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
-var utils = __webpack_require__(12);
-var normalizeHeaderName = __webpack_require__(177);
+var utils = __webpack_require__(13);
+var normalizeHeaderName = __webpack_require__(182);
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -6552,10 +6557,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(104);
+    adapter = __webpack_require__(106);
   } else if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(104);
+    adapter = __webpack_require__(106);
   }
   return adapter;
 }
@@ -6632,23 +6637,23 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(64)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(65)))
 
 /***/ }),
-/* 104 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
-var settle = __webpack_require__(178);
-var cookies = __webpack_require__(180);
-var buildURL = __webpack_require__(101);
-var buildFullPath = __webpack_require__(181);
-var parseHeaders = __webpack_require__(184);
-var isURLSameOrigin = __webpack_require__(185);
-var createError = __webpack_require__(105);
+var utils = __webpack_require__(13);
+var settle = __webpack_require__(183);
+var cookies = __webpack_require__(185);
+var buildURL = __webpack_require__(103);
+var buildFullPath = __webpack_require__(186);
+var parseHeaders = __webpack_require__(189);
+var isURLSameOrigin = __webpack_require__(190);
+var createError = __webpack_require__(107);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -6828,13 +6833,13 @@ module.exports = function xhrAdapter(config) {
 
 
 /***/ }),
-/* 105 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(179);
+var enhanceError = __webpack_require__(184);
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -6853,13 +6858,13 @@ module.exports = function createError(message, config, code, request, response) 
 
 
 /***/ }),
-/* 106 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 /**
  * Config-specific merge-function which creates a new config-object
@@ -6947,7 +6952,7 @@ module.exports = function mergeConfig(config1, config2) {
 
 
 /***/ }),
-/* 107 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6973,7 +6978,7 @@ module.exports = Cancel;
 
 
 /***/ }),
-/* 108 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7231,13 +7236,13 @@ module.exports = {
 
 
 /***/ }),
-/* 109 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
   'use strict';
 
-  var ChromeTabs = __webpack_require__(207);
+  var ChromeTabs = __webpack_require__(212);
 
   function open(url, target) {
     switch (window.location.protocol) {
@@ -7254,7 +7259,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 
 
 /***/ }),
-/* 110 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -7293,7 +7298,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 111 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -7357,8 +7362,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
 
 /***/ }),
-/* 112 */,
-/* 113 */,
 /* 114 */,
 /* 115 */,
 /* 116 */,
@@ -7377,7 +7380,10 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 /* 129 */,
 /* 130 */,
 /* 131 */,
-/* 132 */
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -7400,7 +7406,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 133 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -7409,7 +7415,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var office = __webpack_require__(28);
+    var office = __webpack_require__(29);
     /** @constructor */
 
 
@@ -7479,7 +7485,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 134 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -7490,25 +7496,25 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Promise = __webpack_require__(3);
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
-    var Event = __webpack_require__(16);
+    var Event = __webpack_require__(17);
 
     var Timer = __webpack_require__(53);
 
-    var Utils = __webpack_require__(10);
+    var Utils = __webpack_require__(11);
 
-    var schema = __webpack_require__(212);
+    var schema = __webpack_require__(217);
 
-    var identity = __webpack_require__(84);
+    var identity = __webpack_require__(86);
 
-    var identityStates = __webpack_require__(85);
+    var identityStates = __webpack_require__(87);
 
-    var modelParties = __webpack_require__(135);
+    var modelParties = __webpack_require__(138);
 
     var modelPartiesTypes = __webpack_require__(75);
 
-    var ZangSpaces = __webpack_require__(231);
+    var ZangSpaces = __webpack_require__(236);
 
     var logger = Log.createLogger('SPACES');
 
@@ -7887,7 +7893,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 135 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -7896,11 +7902,11 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var Event = __webpack_require__(16);
+    var Event = __webpack_require__(17);
 
-    var schema = __webpack_require__(230);
+    var schema = __webpack_require__(235);
 
-    var modelIdentity = __webpack_require__(84);
+    var modelIdentity = __webpack_require__(86);
 
     var partyType = __webpack_require__(75);
 
@@ -8004,9 +8010,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 136 */,
-/* 137 */,
-/* 138 */,
 /* 139 */,
 /* 140 */,
 /* 141 */,
@@ -8033,7 +8036,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 /* 162 */,
 /* 163 */,
 /* 164 */,
-/* 165 */
+/* 165 */,
+/* 166 */,
+/* 167 */,
+/* 168 */,
+/* 169 */,
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -8124,9 +8132,9 @@ var runtime = (function (exports) {
   // This is a polyfill for %IteratorPrototype% for environments that
   // don't natively support it.
   var IteratorPrototype = {};
-  IteratorPrototype[iteratorSymbol] = function () {
+  define(IteratorPrototype, iteratorSymbol, function () {
     return this;
-  };
+  });
 
   var getProto = Object.getPrototypeOf;
   var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
@@ -8140,8 +8148,9 @@ var runtime = (function (exports) {
 
   var Gp = GeneratorFunctionPrototype.prototype =
     Generator.prototype = Object.create(IteratorPrototype);
-  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
-  GeneratorFunctionPrototype.constructor = GeneratorFunction;
+  GeneratorFunction.prototype = GeneratorFunctionPrototype;
+  define(Gp, "constructor", GeneratorFunctionPrototype);
+  define(GeneratorFunctionPrototype, "constructor", GeneratorFunction);
   GeneratorFunction.displayName = define(
     GeneratorFunctionPrototype,
     toStringTagSymbol,
@@ -8255,9 +8264,9 @@ var runtime = (function (exports) {
   }
 
   defineIteratorMethods(AsyncIterator.prototype);
-  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+  define(AsyncIterator.prototype, asyncIteratorSymbol, function () {
     return this;
-  };
+  });
   exports.AsyncIterator = AsyncIterator;
 
   // Note that simple async functions are implemented on top of
@@ -8450,13 +8459,13 @@ var runtime = (function (exports) {
   // iterator prototype chain incorrectly implement this, causing the Generator
   // object to not be returned from this call. This ensures that doesn't happen.
   // See https://github.com/facebook/regenerator/issues/274 for more details.
-  Gp[iteratorSymbol] = function() {
+  define(Gp, iteratorSymbol, function() {
     return this;
-  };
+  });
 
-  Gp.toString = function() {
+  define(Gp, "toString", function() {
     return "[object Generator]";
-  };
+  });
 
   function pushTryEntry(locs) {
     var entry = { tryLoc: locs[0] };
@@ -8775,19 +8784,24 @@ try {
 } catch (accidentalStrictMode) {
   // This module should not be running in strict mode, so the above
   // assignment should always work unless something is misconfigured. Just
-  // in case runtime.js accidentally runs in strict mode, we can escape
+  // in case runtime.js accidentally runs in strict mode, in modern engines
+  // we can explicitly access globalThis. In older engines we can escape
   // strict mode using a global Function call. This could conceivably fail
   // if a Content Security Policy forbids using Function, but in that case
   // the proper solution is to fix the accidental strict mode problem. If
   // you've misconfigured your bundler to force strict mode and applied a
   // CSP to forbid Function, and you're not willing to fix either of those
   // problems, please detail your unique predicament in a GitHub issue.
-  Function("r", "regeneratorRuntime = r")(runtime);
+  if (typeof globalThis === "object") {
+    globalThis.regeneratorRuntime = runtime;
+  } else {
+    Function("r", "regeneratorRuntime = r")(runtime);
+  }
 }
 
 
 /***/ }),
-/* 166 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module){
@@ -8795,7 +8809,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
   
   var globals = __webpack_require__(21);
   //var fetch = require('./fetch.poly');
-  var fetchDefs = __webpack_require__(167);
+  var fetchDefs = __webpack_require__(172);
 
   var loader = __webpack_require__(52);
 
@@ -8817,7 +8831,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
 
 /***/ }),
-/* 167 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -8892,7 +8906,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 168 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8911,7 +8925,7 @@ function loadOffice(onload) {
 }
 
 /***/ }),
-/* 169 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -8937,7 +8951,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 170 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -9011,23 +9025,23 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 171 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(172);
+module.exports = __webpack_require__(177);
 
 /***/ }),
-/* 172 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
-var bind = __webpack_require__(100);
-var Axios = __webpack_require__(173);
-var mergeConfig = __webpack_require__(106);
-var defaults = __webpack_require__(103);
+var utils = __webpack_require__(13);
+var bind = __webpack_require__(102);
+var Axios = __webpack_require__(178);
+var mergeConfig = __webpack_require__(108);
+var defaults = __webpack_require__(105);
 
 /**
  * Create an instance of Axios
@@ -9060,15 +9074,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(107);
-axios.CancelToken = __webpack_require__(186);
-axios.isCancel = __webpack_require__(102);
+axios.Cancel = __webpack_require__(109);
+axios.CancelToken = __webpack_require__(191);
+axios.isCancel = __webpack_require__(104);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(187);
+axios.spread = __webpack_require__(192);
 
 module.exports = axios;
 
@@ -9077,17 +9091,17 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 173 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
-var buildURL = __webpack_require__(101);
-var InterceptorManager = __webpack_require__(174);
-var dispatchRequest = __webpack_require__(175);
-var mergeConfig = __webpack_require__(106);
+var utils = __webpack_require__(13);
+var buildURL = __webpack_require__(103);
+var InterceptorManager = __webpack_require__(179);
+var dispatchRequest = __webpack_require__(180);
+var mergeConfig = __webpack_require__(108);
 
 /**
  * Create a new instance of Axios
@@ -9178,13 +9192,13 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 174 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 function InterceptorManager() {
   this.handlers = [];
@@ -9237,16 +9251,16 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 175 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
-var transformData = __webpack_require__(176);
-var isCancel = __webpack_require__(102);
-var defaults = __webpack_require__(103);
+var utils = __webpack_require__(13);
+var transformData = __webpack_require__(181);
+var isCancel = __webpack_require__(104);
+var defaults = __webpack_require__(105);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -9323,13 +9337,13 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 176 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 /**
  * Transform the data for a request or a response
@@ -9350,13 +9364,13 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 177 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 module.exports = function normalizeHeaderName(headers, normalizedName) {
   utils.forEach(headers, function processHeader(value, name) {
@@ -9369,13 +9383,13 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 178 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createError = __webpack_require__(105);
+var createError = __webpack_require__(107);
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -9401,7 +9415,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 179 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9450,13 +9464,13 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 
 /***/ }),
-/* 180 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -9510,14 +9524,14 @@ module.exports = (
 
 
 /***/ }),
-/* 181 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var isAbsoluteURL = __webpack_require__(182);
-var combineURLs = __webpack_require__(183);
+var isAbsoluteURL = __webpack_require__(187);
+var combineURLs = __webpack_require__(188);
 
 /**
  * Creates a new URL by combining the baseURL with the requestedURL,
@@ -9537,7 +9551,7 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 
 
 /***/ }),
-/* 182 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9558,7 +9572,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 183 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9579,13 +9593,13 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 184 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 // Headers whose duplicates are ignored by node
 // c.f. https://nodejs.org/api/http.html#http_message_headers
@@ -9639,13 +9653,13 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 185 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(12);
+var utils = __webpack_require__(13);
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -9714,13 +9728,13 @@ module.exports = (
 
 
 /***/ }),
-/* 186 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(107);
+var Cancel = __webpack_require__(109);
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -9778,7 +9792,7 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 187 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9812,18 +9826,18 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 188 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_client_oauth2__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_client_oauth2__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_client_oauth2___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_client_oauth2__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_qs__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_qs__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_qs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_qs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lib_jsl_chrome_chrome__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lib_jsl_chrome_chrome__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lib_jsl_chrome_chrome___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__lib_jsl_chrome_chrome__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_jsl_chrome_window__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_jsl_chrome_window__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_jsl_chrome_window___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__lib_jsl_chrome_window__);
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -10013,12 +10027,12 @@ function uuidv4() {
 
 
 /***/ }),
-/* 189 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Buffer = __webpack_require__(190).Buffer
-var Querystring = __webpack_require__(191)
-var defaultRequest = __webpack_require__(194)
+var Buffer = __webpack_require__(195).Buffer
+var Querystring = __webpack_require__(196)
+var defaultRequest = __webpack_require__(199)
 
 const DEFAULT_URL_BASE = 'https://example.org/'
 
@@ -10724,24 +10738,24 @@ JwtBearerFlow.prototype.getToken = function (token, opts) {
 
 
 /***/ }),
-/* 190 */
+/* 195 */
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
-/* 191 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(192);
-exports.encode = exports.stringify = __webpack_require__(193);
+exports.decode = exports.parse = __webpack_require__(197);
+exports.encode = exports.stringify = __webpack_require__(198);
 
 
 /***/ }),
-/* 192 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10832,7 +10846,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 193 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10924,7 +10938,7 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 194 */
+/* 199 */
 /***/ (function(module, exports) {
 
 /**
@@ -10963,14 +10977,14 @@ module.exports = function request (method, url, body, headers) {
 
 
 /***/ }),
-/* 195 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var stringify = __webpack_require__(196);
-var parse = __webpack_require__(206);
+var stringify = __webpack_require__(201);
+var parse = __webpack_require__(211);
 var formats = __webpack_require__(74);
 
 module.exports = {
@@ -10981,14 +10995,14 @@ module.exports = {
 
 
 /***/ }),
-/* 196 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var getSideChannel = __webpack_require__(197);
-var utils = __webpack_require__(108);
+var getSideChannel = __webpack_require__(202);
+var utils = __webpack_require__(110);
 var formats = __webpack_require__(74);
 var has = Object.prototype.hasOwnProperty;
 
@@ -11278,15 +11292,15 @@ module.exports = function (object, opts) {
 
 
 /***/ }),
-/* 197 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var GetIntrinsic = __webpack_require__(72);
-var callBound = __webpack_require__(202);
-var inspect = __webpack_require__(204);
+var callBound = __webpack_require__(207);
+var inspect = __webpack_require__(209);
 
 var $TypeError = GetIntrinsic('%TypeError%');
 var $WeakMap = GetIntrinsic('%WeakMap%', true);
@@ -11409,14 +11423,14 @@ module.exports = function getSideChannel() {
 
 
 /***/ }),
-/* 198 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var origSymbol = typeof Symbol !== 'undefined' && Symbol;
-var hasSymbolSham = __webpack_require__(199);
+var hasSymbolSham = __webpack_require__(204);
 
 module.exports = function hasNativeSymbols() {
 	if (typeof origSymbol !== 'function') { return false; }
@@ -11429,7 +11443,7 @@ module.exports = function hasNativeSymbols() {
 
 
 /***/ }),
-/* 199 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11478,7 +11492,7 @@ module.exports = function hasSymbols() {
 
 
 /***/ }),
-/* 200 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11537,7 +11551,7 @@ module.exports = function bind(that) {
 
 
 /***/ }),
-/* 201 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11549,7 +11563,7 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 
 /***/ }),
-/* 202 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11557,7 +11571,7 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 var GetIntrinsic = __webpack_require__(72);
 
-var callBind = __webpack_require__(203);
+var callBind = __webpack_require__(208);
 
 var $indexOf = callBind(GetIntrinsic('String.prototype.indexOf'));
 
@@ -11571,7 +11585,7 @@ module.exports = function callBoundIntrinsic(name, allowMissing) {
 
 
 /***/ }),
-/* 203 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11625,7 +11639,7 @@ if ($defineProperty) {
 
 
 /***/ }),
-/* 204 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var hasMap = typeof Map === 'function' && Map.prototype;
@@ -11660,7 +11674,7 @@ var gPO = (typeof Reflect === 'function' ? Reflect.getPrototypeOf : Object.getPr
         : null
 );
 
-var inspectCustom = __webpack_require__(205).custom;
+var inspectCustom = __webpack_require__(210).custom;
 var inspectSymbol = inspectCustom && isSymbol(inspectCustom) ? inspectCustom : null;
 var toStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag !== 'undefined' ? Symbol.toStringTag : null;
 
@@ -12099,19 +12113,19 @@ function arrObjKeys(obj, inspect) {
 
 
 /***/ }),
-/* 205 */
+/* 210 */
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
-/* 206 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(108);
+var utils = __webpack_require__(110);
 
 var has = Object.prototype.hasOwnProperty;
 var isArray = Array.isArray;
@@ -12375,7 +12389,7 @@ module.exports = function (str, opts) {
 
 
 /***/ }),
-/* 207 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -12387,8 +12401,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
     return;
   }
 
-  var chrome = __webpack_require__(26);
-  var Utils = __webpack_require__(10);
+  var chrome = __webpack_require__(27);
+  var Utils = __webpack_require__(11);
 
   var OAUTH_PROVIDER = 'https://manage1.esna.com/oauth/token.redirect';
 
@@ -12434,7 +12448,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
 
 /***/ }),
-/* 208 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -12449,7 +12463,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Storage = __webpack_require__(41);
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
     var logger = Log.createLogger('SETTINGS');
     var settings = null;
@@ -12586,7 +12600,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 209 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -12595,7 +12609,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var API = __webpack_require__(82);
+    var API = __webpack_require__(84);
 
     var methods = {
       info: {
@@ -13597,7 +13611,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 210 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -13606,7 +13620,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
     var logger = Log.createLogger('TOM');
     var reUri = /(https?\:\/\/)(([^\. ]+(\.[^\. \/\:]+)*)(\:[0-9]+)?)(\/[^\,\.\!\?\r\n]?[^\? \r\n]*)?((\?[^ \r\n"<>]*))?/igm;
@@ -13967,9 +13981,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var roomNP = confInfo.room || '';
       var hostServer = (parseUrl(config.conferenceModeratorUrl) || {}).serverName || '-';
       var confServer = (parseUrl(confInfo.url) || {}).serverName || '';
-      confInfo.isHost =
-      /*(!confServer || (hostServer === confServer)) &&*/
-      roomNP === confPCInfo.room;
+      confInfo.isHost = roomNP === confPCInfo.room;
 
       if (config.conferenceParticipantUrl && config.conferenceParticipantUrl === confInfo.url) {
         confInfo.isHost = true;
@@ -14126,7 +14138,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 211 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -14282,7 +14294,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 212 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -14312,7 +14324,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 213 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
@@ -14344,7 +14356,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 214 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -14352,8 +14364,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
   var Base = __webpack_require__(42);  
   var Promise = __webpack_require__(3);
-  var Utils = __webpack_require__(10);
-  var OAuthStorage = __webpack_require__(215);
+  var Utils = __webpack_require__(11);
+  var OAuthStorage = __webpack_require__(220);
 
   /** @constructor */  
   function OAuth(opt) {
@@ -14411,7 +14423,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 215 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -14419,7 +14431,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
   var Base = __webpack_require__(42);
   var Storage = __webpack_require__(41);
-  var Utils = __webpack_require__(10);
+  var Utils = __webpack_require__(11);
 
   /** @constructor */  
   function OAuthStorage(opt) {
@@ -14495,14 +14507,14 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 216 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
   'use strict';
 
   var OAuthProvider = __webpack_require__(55);
-  var fetchproxy = __webpack_require__(35);
+  var fetchproxy = __webpack_require__(36);
 
   var clientType = 'google';
 
@@ -14536,13 +14548,13 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 217 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
   'use strict';
 
-  var LiteralMap = __webpack_require__(110);
+  var LiteralMap = __webpack_require__(112);
 
   var jwtProps = new LiteralMap({
     audience: 'aud', nonce: 'nonce', issuer: 'iss', issued: 'iat', expiry: 'exp', verified: 'email_verified', email: 'email',
@@ -14570,7 +14582,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 218 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -14578,9 +14590,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
   var Timer = __webpack_require__(53);  
   var Promise = __webpack_require__(3);
-  var Utils = __webpack_require__(10);
-  var chrome = __webpack_require__(26);
-  var Window = __webpack_require__(109);
+  var Utils = __webpack_require__(11);
+  var chrome = __webpack_require__(27);
+  var Window = __webpack_require__(111);
 
   var authErrKey = 'auth-error';
 
@@ -14881,7 +14893,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 
 
 /***/ }),
-/* 219 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -14911,15 +14923,15 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 220 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
   'use strict';
 
   var OAuthProvider = __webpack_require__(55);
-  var Utils = __webpack_require__(10);
-  var fetchproxy = __webpack_require__(35);
+  var Utils = __webpack_require__(11);
+  var fetchproxy = __webpack_require__(36);
 
   var clientType = 'esna';
 
@@ -14996,7 +15008,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 221 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
@@ -15026,7 +15038,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function (r
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 222 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -15037,11 +15049,11 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Promise = __webpack_require__(3);
 
-    var PromiseQueue = __webpack_require__(223);
+    var PromiseQueue = __webpack_require__(228);
 
-    var fetchproxy = __webpack_require__(35);
+    var fetchproxy = __webpack_require__(36);
 
-    var Utils = __webpack_require__(10);
+    var Utils = __webpack_require__(11);
 
     var commands = {
       check: {
@@ -15234,7 +15246,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 223 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
@@ -15294,7 +15306,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 224 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -15303,7 +15315,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var channel = __webpack_require__(225);
+    var channel = __webpack_require__(230);
 
     function Channel() {
       this.onConnect = channel.onConnect;
@@ -15317,20 +15329,20 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 225 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
   'use strict';
 
   var globals = __webpack_require__(21);
-  var chrome = __webpack_require__(26);
+  var chrome = __webpack_require__(27);
 
-  var Event = __webpack_require__(16);
+  var Event = __webpack_require__(17);
 
-  var RPCPort = __webpack_require__(226);
-  var RPCRouter = __webpack_require__(227);
-  var RPCProxy = __webpack_require__(228);
+  var RPCPort = __webpack_require__(231);
+  var RPCRouter = __webpack_require__(232);
+  var RPCProxy = __webpack_require__(233);
 
   /** @constructor */  
   function RPCServer() {
@@ -15411,16 +15423,16 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 226 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
   'use strict';
 
   var globals = __webpack_require__(21);
-  var Event = __webpack_require__(16);
-  var Guid = __webpack_require__(111);
-  var chrome = __webpack_require__(26);
+  var Event = __webpack_require__(17);
+  var Guid = __webpack_require__(113);
+  var chrome = __webpack_require__(27);
 
   function RPCPort() {
     this.id       = Guid.NewGuid().toString();
@@ -15458,7 +15470,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 227 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
@@ -15578,14 +15590,14 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 228 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(require, exports, module) {
   'use strict';
 
   var Promise = __webpack_require__(3);
-  var Event = __webpack_require__(16);
+  var Event = __webpack_require__(17);
   
   var RPCSchema = __webpack_require__(54);
 
@@ -15875,7 +15887,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(re
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 229 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -15902,7 +15914,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 230 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -15929,7 +15941,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 231 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(69), __webpack_require__(70)], __WEBPACK_AMD_DEFINE_RESULT__ = (function (_regenerator, _asyncToGenerator2) {
@@ -15944,9 +15956,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Promise = __webpack_require__(3);
 
-    var fetchproxy = __webpack_require__(35);
+    var fetchproxy = __webpack_require__(36);
 
-    var office = __webpack_require__(28);
+    var office = __webpack_require__(29);
 
     var methods = {
       fetchUser: {
@@ -16464,11 +16476,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
 /* 237 */,
 /* 238 */,
 /* 239 */,
@@ -16775,7 +16782,15 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 /* 540 */,
 /* 541 */,
 /* 542 */,
-/* 543 */
+/* 543 */,
+/* 544 */,
+/* 545 */,
+/* 546 */,
+/* 547 */,
+/* 548 */,
+/* 549 */,
+/* 550 */,
+/* 551 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -16788,16 +16803,16 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
     var Promise = __webpack_require__(3);
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
-    var office = __webpack_require__(28);
+    var office = __webpack_require__(29);
 
     var invite = __webpack_require__(71); // define extractMeetingInfoNative
 
 
-    var syncMeeting = __webpack_require__(544);
+    var syncMeeting = __webpack_require__(552);
 
-    var i18n = __webpack_require__(27);
+    var i18n = __webpack_require__(28);
 
     var logger = Log.createLogger('BKG');
     var joinKey = 'joinStatus';
@@ -16991,7 +17006,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 544 */
+/* 552 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -17005,19 +17020,19 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
     })(); // var Promise = require('/lib/jsl/promise');
 
 
-    var Log = __webpack_require__(15);
+    var Log = __webpack_require__(16);
 
-    var Utils = __webpack_require__(10);
+    var Utils = __webpack_require__(11);
 
     var Storage = __webpack_require__(41);
 
-    var rooms = __webpack_require__(99);
+    var rooms = __webpack_require__(101);
 
     var logger = Log.createLogger('SYNC');
 
-    var syncNative = __webpack_require__(545);
+    var syncNative = __webpack_require__(553);
 
-    var syncErrApi = __webpack_require__(546);
+    var syncErrApi = __webpack_require__(554);
 
     syncErrApi = new syncErrApi('http://httpstat.us/');
 
@@ -17243,7 +17258,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 545 */
+/* 553 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -17269,7 +17284,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 546 */
+/* 554 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
@@ -17278,7 +17293,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   !(__WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, module) {
     'use strict';
 
-    var API = __webpack_require__(82);
+    var API = __webpack_require__(84);
 
     var methods = {
       getError: {

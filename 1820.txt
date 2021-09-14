@@ -88,7 +88,6 @@ SET ACSSRVR tsi81d-aads.richlab.avaya.com
 SET ENCRYPT_SRTCP 0
 SET ECHO_CANCELLATION AEC
 SET ESMSECURE 1
-SET TRUSTCERTS "http://labopsfs.richlab.avaya.com/Certs/tsi81dsmgrCA.cacert.pem,http://labopsfs.richlab.avaya.com/Certs/tsi81d-ca.pem"
 SET LOG_VERBOSITY 1
 SET UNIFIED_PORTAL_SSO 1
 SET BFCP_TRANSPORT 0
