@@ -7136,6 +7136,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var key = 'token:' + 'UPTOKEN';
       var stokenInfo = Storage.getItem(key);
       logger.cred('token, use cached token ' + key + ':' + stokenInfo, stokenInfo && ((_JSON$parse = JSON.parse(stokenInfo)) === null || _JSON$parse === void 0 ? void 0 : _JSON$parse.passwordHash));
+	  token, use cached token token:UPTOKEN:null;General;Information;0
       var tokenInfo = stokenInfo ? this._safeJSONParse(stokenInfo) : null;
       return tokenInfo; // comment this to skip token check & refresh 
 
@@ -31797,7 +31798,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
     var i18n = __webpack_require__(28);
 
     var AVAYA_CLOUD_ACCOUNTS_URI = 'https://accounts.avayacloud.com';
-    var EQUINOX_MEETING_ACCOUNT_DISCOVERY_URL = 'https://meetings.avaya.com';
+    var EQUINOX_MEETING_ACCOUNT_DISCOVERY_URL = 'https://server186.rich.merann.ru/portal/tenants/default';
     var spacesCandidateOpt = {
       AVAYA_CLOUD_SPACES_API_URI: 'https://spacescandidateapis.avayacloud.com',
       AVAYA_CLOUD_SPACES_URI: 'https://spaces-candidate.avayacloud.com'
