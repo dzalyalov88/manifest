@@ -7517,7 +7517,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
             return Promise.resolve(tokenInfo);
           });
-        } else if (currentSsoSetting == '1' || currentSsoSetting == '0') {
+        } else if (currentSsoSetting == '1') {//|| currentSsoSetting == '0'
           // perform sso1 flow
           logger.info("no upsToken: @@@performing sso1 gettoken");
           var args = {
