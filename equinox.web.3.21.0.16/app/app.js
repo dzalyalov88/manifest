@@ -7501,7 +7501,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
         }
 
         var currentSsoSetting = Storage.getItem("AVAYA_UNIFIED_PORTAL_SSO");
-		logger.info("getting AVAYA_UNIFIED_PORTAL_SSO value from storage: " + currentSsoSetting);
+		logger.info("getting______AVAYA_UNIFIED_PORTAL_SSO value from storage: " + currentSsoSetting);
         if (currentSsoSetting == '3') {
           // perform sss03 flow
           return self._requestTokenInfoforSSO3().then(function (r) {
@@ -7516,7 +7516,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
             return Promise.resolve(tokenInfo);
           });
-        } else if (currentSsoSetting == '1' || currentSsoSetting == '0') {
+        } else if (currentSsoSetting == '1' || currentSsoSetting == '0' || currentSsoSetting == null) {
           // perform sso1 flow
           logger.info("no upsToken: @@@performing sso1 gettoken");
           var args = {
