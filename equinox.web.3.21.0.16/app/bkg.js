@@ -17246,8 +17246,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
         var _byte = parseInt(str, 16);
 		logger.info('ABCD:_byte is:', _byte);
         result += String.fromCharCode(_byte);
+		logger.info('ABCD:temp_result is:', btoa(result).replace(/=/g, ''));
       }
-	  logger.info('ABCD:result is:', result);
+	  
       return btoa(result).replace(/=/g, '');
     }
 
