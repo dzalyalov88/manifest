@@ -17041,6 +17041,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
       logger.info('[sync meeting] starting');
       logger.info('[sync meeting] jso:', jso);
+	  logger.info('ABCD:globalUniqueId test:', hexToBase64('00000000449A9DDCD0801E409DDBD64D43CE6187070058C686B657BA7441BE7F1EC7FF0B7B860000005A327C00001E865A2E351605418AC4294FEB3BC0780001737C711C0000'));
       logger.cred('[sync meeting] configuration: ' + configuration, configuration && ((_JSON$parse = JSON.parse(configuration)) === null || _JSON$parse === void 0 ? void 0 : _JSON$parse.Password));
       var syncInfo = JSON.parse(jso);
       var info = {};
@@ -17243,10 +17244,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
         var str = hex[i] + hex[i + 1] || '';
 
         var _byte = parseInt(str, 16);
-
+		logger.info('ABCD:_byte is:', _byte);
         result += String.fromCharCode(_byte);
       }
-
+	  logger.info('ABCD:result is:', result);
       return btoa(result).replace(/=/g, '');
     }
 
