@@ -1,0 +1,7 @@
+$(conferenceType) - pozvánka
+
+Připojení pomocí telefonu: $(bridgeNumber), přístupový kód: $(room)
+
+Připojení z mobilu:​ tel:$(bridgeNumber),,$(room)
+
+Připojení pomocí webového prohlížeče:​ $(conferenceJoinUrl)

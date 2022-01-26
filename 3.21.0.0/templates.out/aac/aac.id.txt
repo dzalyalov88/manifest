@@ -1,0 +1,7 @@
+Undangan $(conferenceType)
+
+Gabung dengan telepon: $(bridgeNumber), Kode sandi: $(room)
+
+Gabung dari Ponsel:​ tel:$(bridgeNumber),,$(room)
+
+Gabung dengan browser web:​ $(conferenceJoinUrl)

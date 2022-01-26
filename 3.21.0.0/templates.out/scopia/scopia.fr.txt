@@ -1,0 +1,4 @@
+Rejoindre la réunion :​ $(portalJoinUrl)$(room)$(pinE164)
+
+  ID de la réunion :​ $(room)
+  PIN de la réunion :​ $(pin)

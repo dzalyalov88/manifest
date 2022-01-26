@@ -1,0 +1,19 @@
+Toplantıya katıl
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Toplantı kimliği:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Toplantı PIN'i:​ [PIN]#[PIN_END]
+
+Telefonla katıl
+
+Aşağıdaki numaralardan birini kullanın ve istendiğinde toplantı kimliğini[PIN_START] ve PIN'ini[PIN_END] girin.
+
+ Tüm Konumlar:​ +1 303 538 5700
+ Kuzey Amerika (Ücretsiz):​ +1 866 282 9244
+ İsrail:​ +972 3 645 8406
+ Avustralya:​ +61 2 9352 9477
+ Kanada, Ottawa:​ +1 613 595 9580
+ Kanada, Belleville:​ +1 613 967 5102
+ Hindistan:​ +91 20 6688 6099 Toplantı kimliğini[PIN_START] ve PIN'ini[PIN_END] girmeden önce 8'e basın
+ Hindistan, Bangalore:​ +91 80 6715 3010 Toplantı kimliğini[PIN_START] ve PIN'ini[PIN_END] girmeden önce 8'e basın

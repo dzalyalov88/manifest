@@ -1,0 +1,4 @@
+Der Besprechung beitreten:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  Besprechungs-ID:​ $(room)
+  Besprechungs-PIN:​ $(pin)

@@ -1,0 +1,19 @@
+Rejoindre la réunion
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ ID de la réunion :​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ PIN de la réunion :​ [PIN]#[PIN_END]
+
+Rejoindre par téléphone
+
+Utilisez l'un des numéros ci-dessous et, si vous y êtes invité, saisissez l'ID[PIN_START] et le code PIN[PIN_END] de la réunion.
+
+ Tous les emplacements :​ +1 303 538 5700
+ Amérique du Nord (numéro gratuit) :​ +1 866 282 9244
+ Israël :​ +972 3 645 8406
+ Australie :​ +61 2 9352 9477
+ Canada, Ottawa :​ +1 613 595 9580
+ Canada, Belleville :​ +1 613 967 5102
+ Inde :​ +91 20 6688 6099 Appuyez sur 8 avant d'entrer l'ID de réunion[PIN_START] et le code PIN[PIN_END].
+ Inde, Bangalore :​ +91 80 6715 3010 Appuyez sur 8 avant d'entrer l'ID de réunion[PIN_START] et le code PIN[PIN_END].

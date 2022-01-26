@@ -1,0 +1,7 @@
+Invitation $(conferenceType)
+
+Rejoindre via téléphone : $(bridgeNumber), Code d'accès : $(room)
+
+Rejoindre via un téléphone mobile :​ tel:$(bridgeNumber),,$(room)
+
+Rejoindre via un navigateur Web :​ $(conferenceJoinUrl)

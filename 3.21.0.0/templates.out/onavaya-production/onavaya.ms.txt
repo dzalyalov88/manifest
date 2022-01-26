@@ -1,0 +1,80 @@
+Persidangan OnAvaya
+
+[PIN_START]Untuk kaedah pendailan di bawah, apabila digesa untuk memasukkan PIN, masukkan [PIN]#.[PIN_END]
+
+Komputer, Bimbit, Web:
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Petua: Gunakan Chrome untuk pengalaman persidangan terbaik (audio, video, web).
+
+Untuk menyertai dari titik akhir Penerbitan H.323 (Di Avaya), dail ID mesyuarat: [MEETING_ID_WITH_SPACE_4].
+
+Sertai dari Sistem Persidangan Video H.323 Luaran:
+[PIN_START]Apabila digesa untuk memasukkan PIN, masukkan [PIN]#.[PIN_END]
+Amerika Syarikat (Timur): Masukkan [MEETING_ID]@useastvideo.avaya.com
+Amerika Syarikat (Barat): Masukkan [MEETING_ID]@uswestvideo.avaya.com
+EMEA: Masukkan [MEETING_ID]@emeavideo.avaya.com
+APAC: Masukkan [MEETING_ID]@apacvideo.avaya.com
+
+Sertai dari Sistem Persidangan Video SIP Luaran:
+Amerika Syarikat (Timur): Masukkan sips:[MEETING_ID]@useastsipvideo.avaya.com
+Amerika Syarikat (Barat): Masukkan sips:[MEETING_ID]@uswestsipvideo.avaya.com
+EMEA: Masukkan sips:[MEETING_ID]@emeasipvideo.avaya.com
+APAC: Masukkan sips:[MEETING_ID]@apacsipvideo.avaya.com
+
+Dail Masuk Audio
+Untuk menyambung dari telefon, dail nombor akses di bawah dan apabila digesa, masukkan [MEETING_ID_WITH_SPACE_4] diikuti dengan #.
+Amerika Syarikat/Kanada (Bebas Tol): +18662829226
+Amerika Syarikat (Wilayah Timur): +15132288444
+Amerika Syarikat (Wilayah Barat): +17209772444
+Afrika Selatan: +27117004622
+Arab Saudi, Riyadh: +966118342344
+Argentina: +541141198244
+Australia, Melbourne: +61392817744
+Australia, Sydney: +61293529244
+Austria: +431878706244
+Belanda: +31306097815
+Belgium: +3227778544
+Brazil: +551151856344
+China, Beijing: +861085165796
+China, Dalian: +8641183777544
+China, Guangzhou: +862022647096
+China, Zhongshan: +8676023614088
+Colombia: +5716383474
+Croatia: +38515599849
+Denmark: +4544737301
+Emiriah Arab Bersatu: +97144048364
+Filipina: +6328305954
+Hong Kong: +85231216288
+Hungary: +3612388490
+India, Bangalore: +918067153411
+India, Gurgaon: +911244914449
+India, Hyderabad: +914044317106
+India, Mumbai: +912233854088
+India, Pune: +912067247088
+Indonesia: +622125559844
+Ireland: +35391733944
+Israel: +97236459112
+Itali: +390226293244
+Jepun: +81355758788
+Jerman: +496975058444
+Kanada, Belleville: +16137717465
+Kanada, Ottawa: +16135959080
+Korea Selatan: +82260074698
+Malaysia: +60320593344
+Mexico: +525552782864
+New Zealand: +6493522396
+Norway: +4722937844
+Perancis: +33140947944
+Poland: +48225773744
+Republik Czech: +420222194144
+Rusia: +74995004583
+Sepanyol: +34913876885
+Shanghai: +862161288088
+Singapura: +6564038984
+Sweden: +46852207024
+Switzerland: +41448781544
+Taiwan: +886281713644
+Thailand: +6626904854
+Turki: +902129999086
+United Kingdom: +441483308844

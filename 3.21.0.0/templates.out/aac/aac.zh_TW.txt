@@ -1,0 +1,7 @@
+$(conferenceType) 邀請
+
+透過電話加入：$(bridgeNumber)，密碼：$(room)
+
+透過行動電話加入：tel:$(bridgeNumber),,$(room)
+
+透過網頁瀏覽器加入：$(conferenceJoinUrl)

@@ -1,0 +1,13 @@
+Ingressar na reunião
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ ID da reunião:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ PIN da reunião:​ [PIN][PIN_END]
+
+Ingressar por telefone
+
+Utilize um dos números abaixo e quando solicitado, insira a ID[PIN_START] e o PIN[PIN_END] da reunião.
+
+ Nova Iorque:​ +1-212-555-5000
+ Londres:​ +44-020-7946-0500

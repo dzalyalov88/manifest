@@ -1,0 +1,80 @@
+Conferências OnAvaya
+
+[PIN_START]Para o método de discagem abaixo, insira [PIN]# quando o PIN for solicitado.[PIN_END]
+
+Área de trabalho, celular, acesso pela Web:
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Dica: use o Chrome para ter uma melhor experiência de conferência (áudio, vídeo, Web).
+
+Para ingressar a partir de um dispositivo de produção (na Avaya) H.323, disque a ID da reunião: [MEETING_ID_WITH_SPACE_4].
+
+Ingressar a partir de um sistema de videoconferência Avaya H.323 externo:
+[PIN_START]Quando o PIN for solicitado, digite [PIN]#.[PIN_END]
+Leste dos EUA: Digite [MEETING_ID]@useastvideo.avaya.com
+Oeste dos EUA: Digite [MEETING_ID]@uswestvideo.avaya.com
+EMEA: Digite [MEETING_ID]@emeavideo.avaya.com
+APAC: Digite [MEETING_ID]@apacvideo.avaya.com
+
+Ingressar a partir de um sistema de videoconferência Avaya SIP externo:
+Leste dos EUA: Digite sips:[MEETING_ID]@useastsipvideo.avaya.com
+Oeste dos EUA: Digite sips:[MEETING_ID]@uswestsipvideo.avaya.com
+EMEA: Digite sips:[MEETING_ID]@emeasipvideo.avaya.com
+APAC: Digite sips:[MEETING_ID]@apacsipvideo.avaya.com
+
+Acesso de áudio por discagem
+Para se conectar a partir de um telefone, disque um número de acesso abaixo e digite [MEETING_ID_WITH_SPACE_4] seguido por # quando solicitado.
+EUA/Canadá (chamada gratuita): +18662829226
+Região Leste dos EUA: +15132288444
+Região Oeste dos EUA: +17209772444
+África do Sul: +27117004622
+Alemanha: +496975058444
+Arábia Saudita, Riyadh: +966118342344
+Argentina: +541141198244
+Austrália, Melbourne: +61392817744
+Austrália, Sydney: +61293529244
+Áustria: +431878706244
+Bélgica: +3227778544
+Brasil: +551151856344
+Canadá, Belleville: +16137717465
+Canadá, Ottawa: +16135959080
+China, Dalian: +8641183777544
+China, Guangzhou: +862022647096
+China, Pequim: +861085165796
+China, Zhongshan: +8676023614088
+Cingapura: +6564038984
+Colômbia: +5716383474
+Coreia do Sul: +82260074698
+Croácia: +38515599849
+Dinamarca: +4544737301
+Emirados Árabes Unidos: +97144048364
+Espanha: +34913876885
+Filipinas: +6328305954
+França: +33140947944
+Hong Kong: +85231216288
+Hungria: +3612388490
+Índia, Bangalore: +918067153411
+Índia, Gurgaon: +911244914449
+Índia, Hyderabad: +914044317106
+Índia, Mumbai: +912233854088
+Índia, Pune: +912067247088
+Indonésia: +622125559844
+Irlanda: +35391733944
+Israel: +97236459112
+Itália: +390226293244
+Japão: +81355758788
+Malásia: +60320593344
+México: +525552782864
+Noruega: +4722937844
+Nova Zelândia: +6493522396
+Países Baixos: +31306097815
+Polônia: +48225773744
+Reino Unido: +441483308844
+República Tcheca: +420222194144
+Rússia: +74995004583
+Suécia: +46852207024
+Suíça: +41448781544
+Tailândia: +6626904854
+Taiwan: +886281713644
+Turquia: +902129999086
+Xangai: +862161288088

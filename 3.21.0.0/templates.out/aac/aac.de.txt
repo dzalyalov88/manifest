@@ -1,0 +1,7 @@
+$(conferenceType) Einladung
+
+Per Telefon beitreten: $(bridgeNumber), Passcode: $(room)
+
+Per Mobiltelefon beitreten:​ tel:$(bridgeNumber),,$(room)
+
+Per Webbrowser beitreten:​ $(conferenceJoinUrl)

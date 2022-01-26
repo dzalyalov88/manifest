@@ -1,0 +1,503 @@
+﻿<!--
+aemo English master version 25
+source code formatting to be preserved line should not
+exceed 70 characters, there might be an issue with inbound
+conversion on Exchange 2013/Outlook 2010
+-->
+<div align=center dir="$(DIR)">
+
+<table border=0 cellspacing=0 cellpadding=0 width=575
+style="font-size:11pt;font-family:Calibri,Helvetica,sans-serif;background-color:#FEFEFE;">
+<tbody>
+
+<tr>
+<td>
+<p align=center style="margin:0;">
+<!-- branding image refers to static.apps.avaya.com by default -->
+<img alt="$(LOGO_TIP)" width=575 height=128
+src="https://static.apps.avaya.com/scheduler/img/cloud/logo2.en.png"/>
+</p>
+</td>
+</tr>
+
+<tr><td align=center>
+
+<table border=0 cellspacing=0 cellpadding=0 width=550
+style="font-size:11pt;font-family:Calibri,Helvetica,sans-serif;">
+
+<tr><td colspan=3 style="font-size:5px;background-color:#FEFEFE;">
+&nbsp;</td></tr>
+
+<tr>
+<td style="text-align:right"
+width=$(COL1_WIDTH)><img width=62 height=62 alt="logo"
+src="https://static.apps.avaya.com/scheduler/img/cloud/equinox.png"/>
+</td>
+<td
+width=$(COL2_WIDTH)><p style="margin:0.5em;margin-right:0;">
+<span style="color:#E33F24;font-size:120%;">
+<b>$(MEETING_ACCESS)</b>
+</span>
+</p></td>
+<td width=$(COL3_WIDTH) style="font-family:Calibri,Helvetica,sans-serif;">
+<p style="font-weight:bold;font-size:175%;">
+<a style="color:#E33F24;"
+href="[DESKTOP_MOBILE_ACCESS_LINK]" target="_blank">
+$(JOIN_MEETING)
+</a>
+</p>
+</td>
+</tr>
+
+<tr><td colspan=3 style="font-size:5px;background-color:#FEFEFE;">
+&nbsp;</td></tr>
+
+<tr>
+<td style="text-align:right;"
+width=$(COL1_WIDTH)><img width=62 height=62 alt="logo"
+src="https://static.apps.avaya.com/scheduler/img/cloud/h323.png"/>
+</td>
+<td
+width=$(COL2_WIDTH)><p style="margin:0.5em;margin-right:0;">
+<span style="font-size:120%;color:#E33F24;">
+<b>$(MEETING_JOIN)</b>
+</span>
+</p></td>
+
+<td width=$(COL3_WIDTH)>
+<p style="margin-top:4px;margin-bottom:4px;color:#000;">
+$(ENTER_SIPURI_PREFIX)
+<span style="color:#E33F24">
+[E164]@$(MEETINGS_DOMAIN)
+</span>$(ENTER_SIPURI_POSTFIX)
+</p>[PIN_START]
+<p style="margin-top:4px;margin-bottom:4px">
+$(ENTER_PIN_PREFIX) 
+<b>[PIN]#</b>$(ENTER_PIN_POSTFIX)
+</p>[PIN_END]
+<p style="margin-top:4px;margin-bottom:4px;font-family:Calibri,Helvetica,sans-serif;">
+$(DIALING_METHODS_PREFIX)  
+<a style="color:#E33F24;" target="_blank"
+href="https://support.avaya.com/public/index?page=content&id=FAQ109927"
+>$(DIALING_METHODS_LINK)</a>$(DIALING_METHODS_POSTFIX)
+</p></td>
+</tr>
+
+<tr><td colspan=3 style="font-size:5px;background-color:#FEFEFE;">
+&nbsp;</td></tr>
+
+<tr>
+<td style="text-align:right;" width=$(COL1_WIDTH)>
+<img width=62 height=62 alt="logo"
+src="https://static.apps.avaya.com/scheduler/img/cloud/audio.png"/>
+</td>
+<td width=$(COL2_WIDTH)>
+<p style="margin:0.5em;margin-right:0;">
+<span style="color:#E33F24;font-size:120%;">
+<b>$(MEETING_DIAL)</b>
+</span>
+</p></td>
+
+<td width=$(COL3_WIDTH)>
+<p style="font-size:125%;font-weight:bold;margin-bottom:0.5em;">
+[DIAL-IN-LABEL]&nbsp;
+<a href="tel:[DIAL-IN-STRING]," target="_blank"
+style="color:#E33F24;font-family:Calibri,Helvetica,sans-serif;">
+[DIAL-IN-NUMBER]</a>
+</p>
+<p style="color:#000;margin-top:0.25em;">
+$(MEETING_ID)&nbsp;<b>[MEETING_ID_WITH_SPACE_4]</b>
+[PIN_START]&nbsp;$(MEETING_PIN)
+&nbsp;<b>[PIN]</b>[PIN_END]
+</p>
+</td></tr>
+
+<tr><td colspan=3 style="font-size:10px;background-color:#FEFEFE;">
+&nbsp;</td></tr>
+
+<tr><td colspan=3>
+<!-- Phone links & locations below to be edited -->
+<table border=0 cellspacing=0 cellpadding=3 width=550
+style="font-family:Calibri,Helvetica,sans-serif;font-size:10pt;">
+
+<tr><td width=140>
+$(COUNTRY01)
+</td>
+<td width=120><a href="tel:$(COUNTRY01_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY01_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY26)
+</td>
+<td width=120><a href="tel:$(COUNTRY26_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY26_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY02)
+</td>
+<td width=120><a href="tel:$(COUNTRY02_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY02_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY27)
+</td>
+<td width=120><a href="tel:$(COUNTRY27_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY27_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY03)
+</td>
+<td width=120><a href="tel:$(COUNTRY03_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY03_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY28)
+</td>
+<td width=120><a href="tel:$(COUNTRY28_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY28_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY04)
+</td>
+<td width=120><a href="tel:$(COUNTRY04_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY04_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY29)
+</td>
+<td width=120><a href="tel:$(COUNTRY29_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY29_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY05)
+</td>
+<td width=120><a href="tel:$(COUNTRY05_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY05_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY30)
+</td>
+<td width=120><a href="tel:$(COUNTRY30_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY30_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY06)
+</td>
+<td width=120><a href="tel:$(COUNTRY06_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY06_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY31)
+</td>
+<td width=120><a href="tel:$(COUNTRY31_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY31_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY07)
+</td>
+<td width=120><a href="tel:$(COUNTRY07_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY07_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY32)
+</td>
+<td width=120><a href="tel:$(COUNTRY32_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY32_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY08)
+</td>
+<td width=120><a href="tel:$(COUNTRY08_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY08_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY33)
+</td>
+<td width=120><a href="tel:$(COUNTRY33_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY33_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY09)
+</td>
+<td width=120><a href="tel:$(COUNTRY09_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY09_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY34)
+</td>
+<td width=120><a href="tel:$(COUNTRY34_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY34_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY10)
+</td>
+<td width=120><a href="tel:$(COUNTRY10_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY10_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY35)
+</td>
+<td width=120><a href="tel:$(COUNTRY35_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY35_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY11)
+</td>
+<td width=120><a href="tel:$(COUNTRY11_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY11_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY36)
+</td>
+<td width=120><a href="tel:$(COUNTRY36_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY36_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY12)
+</td>
+<td width=120><a href="tel:$(COUNTRY12_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY12_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY37)
+</td>
+<td width=120><a href="tel:$(COUNTRY37_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY37_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY13)
+</td>
+<td width=120><a href="tel:$(COUNTRY13_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY13_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY38)
+</td>
+<td width=120><a href="tel:$(COUNTRY38_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY38_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY14)
+</td>
+<td width=120><a href="tel:$(COUNTRY14_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY14_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY39)
+</td>
+<td width=120><a href="tel:$(COUNTRY39_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY39_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY15)
+</td>
+<td width=120><a href="tel:$(COUNTRY15_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY15_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY40)
+</td>
+<td width=120><a href="tel:$(COUNTRY40_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY40_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY16)
+</td>
+<td width=120><a href="tel:$(COUNTRY16_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY16_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY41)
+</td>
+<td width=120><a href="tel:$(COUNTRY41_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY41_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY17)
+</td>
+<td width=120><a href="tel:$(COUNTRY17_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY17_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY42)
+</td>
+<td width=120><a href="tel:$(COUNTRY42_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY42_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY18)
+</td>
+<td width=120><a href="tel:$(COUNTRY18_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY18_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY43)
+</td>
+<td width=120><a href="tel:$(COUNTRY43_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY43_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY19)
+</td>
+<td width=120><a href="tel:$(COUNTRY19_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY19_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY44)
+</td>
+<td width=120><a href="tel:$(COUNTRY44_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY44_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY20)
+</td>
+<td width=120><a href="tel:$(COUNTRY20_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY20_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY45)
+</td>
+<td width=120><a href="tel:$(COUNTRY45_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY45_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY21)
+</td>
+<td width=120><a href="tel:$(COUNTRY21_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY21_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY46)
+</td>
+<td width=120><a href="tel:$(COUNTRY46_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY46_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY22)
+</td>
+<td width=120><a href="tel:$(COUNTRY22_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY22_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY47)
+</td>
+<td width=120><a href="tel:$(COUNTRY47_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY47_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY23)
+</td>
+<td width=120><a href="tel:$(COUNTRY23_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY23_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY48)
+</td>
+<td width=120><a href="tel:$(COUNTRY48_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY48_PHONE)</a>
+</td>
+</tr>
+  
+<tr><td width=140>
+$(COUNTRY24)
+</td>
+<td width=120><a href="tel:$(COUNTRY24_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY24_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY49)
+</td>
+<td width=120><a href="tel:$(COUNTRY49_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY49_PHONE)</a>
+</td>
+</tr>
+
+<tr><td width=140>
+$(COUNTRY25)
+</td>
+<td width=120><a href="tel:$(COUNTRY25_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY25_PHONE)</a>
+</td>
+<td width=140>
+$(COUNTRY50)
+</td>
+<td width=120><a href="tel:$(COUNTRY50_PHONE_DIAL),,[MEETING_ID]#[PIN_START],,,,,,[PIN]#[PIN_END],"
+style="color:#E33F24;" target="_blank">$(COUNTRY50_PHONE)</a>
+</td>
+</tr>
+    
+</table>
+
+<p style="text-align:center;margin-top:0.5em;margin-bottom:0.5em;">
+$(ACCESS_NUMBERS_PREFIX)
+<a style="color:#E33F24;font-family:Calibri,Helvetica,sans-serif;" 
+target="_blank"
+href="https://support.avaya.com/public/index?page=content&id=FAQ114481"
+>$(ACCESS_NUMBERS_LINK)</a>$(ACCESS_NUMBERS_POSTFIX)
+</p>
+</td></tr>
+</table>
+
+</td></tr>
+
+<tr><td valign="center">
+<p align="center" style="margin-bottom:0.5em;">
+<a style="color:#E33F24;font-size:120%;font-family:Calibri,Helvetica,sans-serif;" 
+target="_blank" href=
+"https://support.avaya.com/public/index?page=content&id=FAQ115184">
+$(MEETING_GUIDES)
+</a>
+</p>
+</td></tr>
+
+<tr><td style="text-align:center;font-size:10pt;color:#E33F24">
+__________________________________________________________________________________</td></tr>
+
+</tbody>
+</table>
+
+</div>
