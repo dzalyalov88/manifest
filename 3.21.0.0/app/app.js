@@ -6441,6 +6441,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var self = this;
       logger.info('fetch: ' + uri + '(opt: ' + JSON.stringify(opt) + ')');
       return (proxy ? fetchproxy(uri, opt) : fetch(uri, opt)).then(function (r) {
+		logger.info('my_fetch:result.headers1: ' + r.headers);
         logger.info('fetch:result: ' + r.ok);
 
         if (!r.ok) {
@@ -6473,6 +6474,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
           }
         };
       }).then(function (r) {
+		  logger.info('my_fetch:result.headers2: ' + r.headers);
         logger.cred('fetch:payload: ' + JSON.stringify(r), r === null || r === void 0 ? void 0 : r.encryptedPassword);
 
         var res = self._extractData(command.response, r);
