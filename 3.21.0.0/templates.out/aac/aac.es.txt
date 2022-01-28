@@ -1,7 +1,0 @@
-Invitación de $(conferenceType)
-
-Únase por teléfono: $(bridgeNumber), código de acceso: $(room)
-
-Únase desde un celular:​ tel:$(bridgeNumber),,$(room)
-
-Únase mediante un navegador web:​ $(conferenceJoinUrl)

@@ -1,7 +1,0 @@
-$(conferenceType) Invitation
-
-Join by phone: $(bridgeNumber), Passcode: $(room)
-
-Join from Mobile: tel:$(bridgeNumber),,$(room)
-
-Join by web browser: $(conferenceJoinUrl)

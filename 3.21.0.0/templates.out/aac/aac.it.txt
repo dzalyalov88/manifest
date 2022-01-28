@@ -1,7 +1,0 @@
-Invito a $(conferenceType)
-
-Partecipa tramite telefono: $(bridgeNumber), Passcode: $(room)
-
-Partecipa da cellulare:​ tel:$(bridgeNumber),,$(room)
-
-Partecipa da browser Web:​ $(conferenceJoinUrl)

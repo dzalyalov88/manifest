@@ -1,7 +1,0 @@
-Invitasjon til $(conferenceType)
-
-Delta via telefon: $(bridgeNumber), Passkode: $(room)
-
-Delta via mobil:​ tel:$(bridgeNumber),,$(room)
-
-Delta via nettleser:​ $(conferenceJoinUrl)

@@ -1,4 +1,0 @@
-Sertai mesyuarat:​ $(portalJoinUrl)$(room)$(pinE164)
-
-  ID mesyuarat:​ $(room)
-  PIN mesyuarat:​ $(pin)

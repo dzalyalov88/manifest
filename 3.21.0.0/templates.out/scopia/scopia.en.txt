@@ -1,4 +1,0 @@
-Join the Meeting: $(portalJoinUrl)$(room)$(pinE164)
-
-  Meeting ID: $(room)
-  Meeting PIN: $(pin)

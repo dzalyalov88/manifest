@@ -1,4 +1,0 @@
-$(JOIN_MEETING)$(SPACE_AFTER_COLON)$(portalJoinUrl)$(room)$(pinE164)
-
-  $(MEETING_ID)$(SPACE_AFTER_COLON)$(room)
-  $(MEETING_PIN)$(SPACE_AFTER_COLON)$(pin)

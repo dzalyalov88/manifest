@@ -1,4 +1,0 @@
-Partecipa alla riunione:​ $(portalJoinUrl)$(room)$(pinE164)
-
-  ID riunione:​ $(room)
-  PIN riunione:​ $(pin)

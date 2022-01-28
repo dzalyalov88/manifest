@@ -1,4 +1,0 @@
-Toplantıya katıl:​ $(portalJoinUrl)$(room)$(pinE164)
-
-  Toplantı kimliği:​ $(room)
-  Toplantı PIN'i:​ $(pin)

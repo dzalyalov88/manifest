@@ -1,4 +1,0 @@
-Bli med i møtet:​ $(portalJoinUrl)$(room)$(pinE164)
-
-  Møte-ID:​ $(room)
-  Møte-PIN:​ $(pin)

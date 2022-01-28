@@ -1,7 +1,0 @@
-Convite para $(conferenceType)
-
-Ingressar por telefone: $(bridgeNumber), senha: $(room)
-
-Ingressar por celular:​ tel:$(bridgeNumber),,$(room)
-
-Ingressar pelo navegador:​ $(conferenceJoinUrl)

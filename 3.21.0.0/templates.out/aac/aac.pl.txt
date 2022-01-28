@@ -1,7 +1,0 @@
-Zaproszenie do konferencji $(conferenceType)
-
-Dołącz przez telefon: $(bridgeNumber), kod: $(room)
-
-Dołącz przez telefon komórkowy:​ tel:$(bridgeNumber),,$(room)
-
-Dołącz przez przeglądarkę internetową:​ $(conferenceJoinUrl)

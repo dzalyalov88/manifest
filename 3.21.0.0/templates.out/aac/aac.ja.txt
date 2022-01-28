@@ -1,7 +1,0 @@
-$(conferenceType) の参加招待
-
-電話から参加：$(bridgeNumber)、パスコード：$(room)
-
-モバイルから参加：tel:$(bridgeNumber),,$(room)
-
-Web ブラウザから参加：$(conferenceJoinUrl)

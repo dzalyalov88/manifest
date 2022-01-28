@@ -1,7 +1,0 @@
-คำเชิญเข้าร่วม $(conferenceType)
-
-เข้าร่วมโดยโทรศัพท์: $(bridgeNumber) รหัสผ่าน: $(room)
-
-เข้าร่วมจากอุปกรณ์เคลื่อนที่:​ tel:$(bridgeNumber),,$(room)
-
-เข้าร่วมโดยเว็บเบราว์เซอร์:​ $(conferenceJoinUrl)
