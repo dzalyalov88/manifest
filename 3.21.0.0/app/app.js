@@ -2355,6 +2355,17 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
           if (office.initialized) {
             timer.reset();
             office.version = Office.context.mailbox.diagnostics.hostVersion.toString() || '';
+			
+			if (Office.context.requirements.isSetSupported('Mailbox', '1.7')) {
+				logger.info('Office supports api 1.7.');
+			}
+			else if (Office.context.requirements.isSetSupported('Mailbox', '1.5')) {
+				logger.info('Office supports api 1.5.');
+			}
+			else {
+				logger.info('Office does not support api 1.5.');
+			}
+			
             logger.info('Office initialized, webAPI: ' + office.webAPI + ', version: ' + office.version + ', apiVersion: ' + office.apiVersion + ', delay: ' + delay);
             logger.info('Office userProfile displayName: ' + office.getDisplayName() + ', emailAddress: ' + office.getEmailAddress());
             officeStorage.init(Office.context.roamingSettings);
