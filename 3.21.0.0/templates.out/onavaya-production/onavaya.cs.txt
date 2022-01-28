@@ -1,0 +1,80 @@
+Konference OnAvaya
+
+[PIN_START]Pro níže uvedený způsob vytáčení po výzvě k zadání čísla PIN zadejte [PIN]#.[PIN_END]
+
+Počítač, mobilní zařízení, webový přístup:
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Tip: Nejlepší kvalitu konferenčního hovoru (zvuku, obrazu, webových stránek) dosáhnete použitím prohlížeče Chrome.
+
+Chcete-li se připojit z produkčního koncového zařízení H.323 (na systému Avaya), vytočte toto ID schůzky: [MEETING_ID_WITH_SPACE_4].
+
+Připojení z externího videokonferenčního systému H.323:
+[PIN_START]Když budete požádáni o zadání čísla PIN, zadejte [PIN]#.[PIN_END]
+Východ USA: Zadejte [MEETING_ID]@useastvideo.avaya.com
+Západ USA: Zadejte [MEETING_ID]@uswestvideo.avaya.com
+EMEA: Zadejte [MEETING_ID]@emeavideo.avaya.com
+APAC: Zadejte [MEETING_ID]@apacvideo.avaya.com
+
+Připojení z externího videokonferenčního systému SIP:
+Východ USA: Zadejte sips:[MEETING_ID]@useastsipvideo.avaya.com
+Západ USA: Zadejte sips:[MEETING_ID]@uswestsipvideo.avaya.com
+EMEA: Zadejte sips:[MEETING_ID]@emeasipvideo.avaya.com
+APAC: Zadejte sips:[MEETING_ID]@apacsipvideo.avaya.com
+
+Přístup pomocí vytáčeného telefonického připojení
+Pokud se chcete připojit z telefonu, vytočte přístupové číslo níže a po vyzvání zadejte [MEETING_ID_WITH_SPACE_4] a znak #.
+USA/Kanada (bezplatná místní linka): +18662829226
+Východní oblast USA: +15132288444
+Západní oblast USA: +17209772444
+Argentina: +541141198244
+Austrálie, Melbourne: +61392817744
+Austrálie, Sydney: +61293529244
+Belgie: +3227778544
+Brazílie: +551151856344
+Česká republika: +420222194144
+Chorvatsko: +38515599849
+Čína, Čung-šan: +8676023614088
+Čína, Dalian: +8641183777544
+Čína, Kanton: +862022647096
+Čína, Peking: +861085165796
+Dánsko: +4544737301
+Filipíny: +6328305954
+Francie: +33140947944
+Hongkong: +85231216288
+Indie, Bengalúr: +918067153411
+Indie, Bombaj: +912233854088
+Indie, Gurgáon: +911244914449
+Indie, Hajdarábád: +914044317106
+Indie, Puné: +912067247088
+Indonésie: +622125559844
+Irsko: +35391733944
+Itálie: +390226293244
+Izrael: +97236459112
+Japonsko: +81355758788
+Jihoafrická republika: +27117004622
+Jižní Korea: +82260074698
+Kanada, Belleville: +16137717465
+Kanada, Ottawa: +16135959080
+Kolumbie: +5716383474
+Maďarsko: +3612388490
+Malajsie: +60320593344
+Mexiko: +525552782864
+Německo: +496975058444
+Nizozemí: +31306097815
+Norsko: +4722937844
+Nový Zéland: +6493522396
+Polsko: +48225773744
+Rakousko: +431878706244
+Rusko: +74995004583
+Šanghaj: +862161288088
+Saúdská Arábie, Rijád: +966118342344
+Singapur: +6564038984
+Španělsko: +34913876885
+Spojené arabské emiráty: +97144048364
+Švédsko: +46852207024
+Švýcarsko: +41448781544
+Tchaj-wan: +886281713644
+Thajsko: +6626904854
+Turecko: +902129999086
+Velká Británie: +441483308844

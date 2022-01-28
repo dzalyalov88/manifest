@@ -1,0 +1,63 @@
+Připojení ke schůzce
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Pro připojení pomocí telefonu, vytočte přístupové číslo, které je uvedeno níže.
+Jakmile budete vyzváni zadat ID schůzky, zadejte [MEETING_ID_WITH_SPACE_4]#
+[PIN_START]Když budete požádáni o zadání čísla PIN, zadejte [PIN]#[PIN_END]
+
+[DIAL-IN-LABEL] [DIAL-IN-NUMBER]
+
+Argentina: +54 223 432 2621
+Austrálie: +61 2 8015 2112
+Austrálie (bezplatná místní linka): +611 8 0031 9261
+Belgie: +32 52 28 01 74
+Brazílie (Rio de Janeiro): +55 21 3500 0465
+Brazílie (Sao Paulo): +55 11 3958 4754
+Česká republika: +420 323 280 008
+Chile: +56 43 245 2125
+Dánsko: +45 89 87 56 69
+Dominikánská republika: +1 849 941 5304
+Finsko: +358 16 469 14 33
+Francie: +33 1 76 36 14 15
+Hongkong: +852 5808 0139
+Indie (bezplatná místní linka): 1800 267 9802
+Irsko: +353 66 401 41 92
+Itálie: +39 06 9480 4505
+Izrael: +972 2 569 5170
+Japonsko: +81 44 670 4529
+Jihoafrická republika: +27 53 004 0095
+Jižní Korea: +82 70 7663 2326
+Kanada: +1 613 902 2881
+Kanada/USA (bezplatná místní linka): +1 833 274 2366
+Kolumbie: +57 1 5085240
+Kypr: +357 22 000 568
+Lucembursko: +352 27 86 25 03
+Maďarsko: +36 36 884 005
+Malajsie: +60 392 125 470
+Mexiko: +52 983 980 0505
+Německo: +49 89 380 38900
+Nizozemí: +31 10 808 0177
+Norsko: +47 33 99 79 52
+Nový Zéland: +64 6 888 7002
+Panama: +507 836 5068
+Peru: +51 1 7085498
+Polsko: +48 65 888 10 44
+Portoriko: +1 939 201 3179
+Portugalsko: +351 308 807 179
+Rakousko: +43 720 884026
+Řecko: +30 211 198 8988
+Rumunsko: +40 345 630 014
+Singapur: +65 3158 1984
+Slovensko: +421 37 230 29 05
+Slovinsko: +386 8288 0264
+Španělsko: +34 868 48 30 25
+Švédsko: +46 690 80 19 13
+Švýcarsko: +41 33 588 01 22
+USA: +1 972 810 6902
+USA/Kanada (bezplatná místní linka): +1 833 274 2366
+Velká Británie: +44 1264 280034
+Velká Británie (bezplatná místní linka): +44 8000 698076
+
+Pro připojení přes H.323 nebo SIP videokonferenční systém.
+Zadejte [E164]@meetings.avaya.com
+[PIN_START]Když budete požádáni o zadání čísla PIN, zadejte [PIN]#[PIN_END]

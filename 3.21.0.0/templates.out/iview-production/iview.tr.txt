@@ -1,0 +1,13 @@
+Toplantıya katıl
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Toplantı kimliği:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Toplantı PIN'i:​ [PIN][PIN_END]
+
+Telefonla katıl
+
+Aşağıdaki numaralardan birini kullanın ve istendiğinde toplantı kimliğini[PIN_START] ve PIN'ini[PIN_END] girin.
+
+ New York:​ +1-212-555-5000
+ Londra:​ +44-020-7946-0500

@@ -1,0 +1,13 @@
+Gå med i mötet
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Mötes-ID:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Mötes-PIN:​ [PIN][PIN_END]
+
+Gå med via telefon
+
+Använd ett av numren nedan och ange mötes-ID och [PIN_START] och PIN[PIN_END] om du blir ombedd.
+
+ New York:​ +1-212-555-5000
+ London:​ +44-020-7946-0500

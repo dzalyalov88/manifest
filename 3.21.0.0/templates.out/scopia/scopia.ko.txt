@@ -1,0 +1,4 @@
+회의 참가:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  회의 ID:​ $(room)
+  회의 PIN:​ $(pin)

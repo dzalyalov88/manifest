@@ -1,0 +1,7 @@
+$(conferenceType) 邀请
+
+通过电话加入：$(bridgeNumber)，密码：$(room)
+
+通过手机加入：tel:$(bridgeNumber),,$(room)
+
+通过 Web 浏览器加入：$(conferenceJoinUrl)

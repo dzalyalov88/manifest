@@ -1,0 +1,7 @@
+$(conferenceType) הזמנה לפגישה
+
+‫הצטרפות מהטלפון: ‪‎$(bridgeNumber)‬, ‫קוד סיסמה: ‪‎$(room)‬
+
+‫הצטרפות מהנייד:‪‎​ tel:$(bridgeNumber),,$(room)‬
+
+‫הצטרפות מהדפדפן:‪‎​ $(conferenceJoinUrl)‬

@@ -1,0 +1,19 @@
+Partecipa alla riunione
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ ID riunione:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ PIN riunione:​ [PIN]#[PIN_END]
+
+Partecipa tramite telefono
+
+Utilizzare uno dei numeri seguenti e, se richiesto, immettere l'ID riunione [PIN_START] e il PIN [PIN_END]
+
+ Tutte le posizioni:​ +1 303 538 5700
+ America del nord (numero verde):​ +1 866 282 9244
+ Israele:​ +972 3 645 8406
+ Australia:​ +61 2 9352 9477
+ Canada, Ottawa:​ +1 613 595 9580
+ Canada, Belleville:​ +1 613 967 5102
+ India:​ +91 20 6688 6099 Premere 8 prima di immettere l'ID riunione [PIN_START] e il PIN [PIN_END]
+ India, Bangalore:​ +91 80 6715 3010 Premere 8 prima di immettere l'ID riunione [PIN_START] e il PIN [PIN_END]

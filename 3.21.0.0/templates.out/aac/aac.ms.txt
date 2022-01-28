@@ -1,0 +1,7 @@
+Jemputan $(conferenceType)
+
+Sertai melalui telefon: $(bridgeNumber), Kod laluan: $(room)
+
+Sertai dari Telefon Bimbit:​ tel:$(bridgeNumber),,$(room)
+
+Sertai melalui pelayar web:​ $(conferenceJoinUrl)

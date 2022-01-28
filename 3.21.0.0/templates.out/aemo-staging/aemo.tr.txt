@@ -1,0 +1,63 @@
+Toplantıya katıl
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Bir telefondan bağlanmak için aşağıda bir erişim numarasını arayın.
+Toplantı kimliği sorulduğunda, şunu girin: [MEETING_ID_WITH_SPACE_4]#
+[PIN_START]PIN sorulduğunda şunu girin: [PIN]#[PIN_END]
+
+[DIAL-IN-LABEL] [DIAL-IN-NUMBER]
+
+Almanya: +49 89 380 38867
+Amerika Birleşik Devletleri: +1 972 810 6901
+Amerika Birleşik Devletleri/Kanada (Ücretsiz): +1 833 273 2366
+Arjantin: +54 223 432 2673
+Avustralya: +61 8 6193 7016
+Avustralya (Ücretsiz): +611 8 0031 9270
+Avusturya: +43 720 883619
+Belçika: +32 52 28 01 62
+Birleşik Krallık: +44 1264 280089
+Birleşik Krallık (Ücretsiz): +44 8000 488777
+Brezilya (Rio): +55 21 3500 0466
+Brezilya (Sao Paulo): +55 11 3958 4735
+Çek Cumhuriyeti: +420 323 280 011
+Danimarka: +45 89 87 56 70
+Dominik Cumhuriyeti: +1 849 941 5306
+Finlandiya: +358 16 469 13 89
+Fransa: +33 1 76 36 14 16
+Güney Afrika: +27 53 004 0090
+Güney Kore: +82 70 4732 5044
+Hindistan (Ücretsiz): 1800 267 9801
+Hollanda: +31 10 808 0176
+Hong Kong: +852 5808 3147
+İrlanda: +353 95 72 400
+İspanya: +34 950 68 90 34
+İsrail: +972 2 372 4288
+İsveç: +46 583 89 09 08
+İsviçre: +41 33 588 01 21
+İtalya: +39 071 876 0130
+Japonya: +81 44 670 4530
+Kanada: +1 613 902 2929
+Kanada/Amerika Birleşik Devletleri (Ücretsiz): +1 833 273 2366
+Kıbrıs: +357 22 000 570
+Kolombiya: +57 1 5085241
+Lüksemburg: +352 27 86 39 35
+Macaristan: +36 36 884 006
+Malezya: +60 392 126 823
+Meksika: +52 983 980 0537
+Norveç: +47 33 99 79 53
+Panama: +507 833 9326
+Peru: +51 1 7086918
+Polonya: +48 95 888 10 64
+Portekiz: +351 308 807 185
+Porto Riko: +1 939 201 3020
+Romanya: +40 339 630 007
+Şili: +56 35 233 2553
+Singapur: +65 3158 1985
+Slovakya: +421 44 321 13 01
+Slovenya: +386 8288 0480
+Yeni Zelanda: +64 6 888 7025
+Yunanistan: +30 211 198 9011
+
+Bir SIP'ten veya H.323 Video Konferans Sistemi'nden katılın.
+Girin: [E164]@meetingsstg.avaya.com
+[PIN_START]PIN sorulduğunda şunu girin: [PIN]#[PIN_END]

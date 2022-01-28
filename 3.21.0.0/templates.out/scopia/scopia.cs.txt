@@ -1,0 +1,4 @@
+Připojení ke schůzce:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  ID schůzky:​ $(room)
+  PIN schůzky:​ $(pin)

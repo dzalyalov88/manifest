@@ -1,0 +1,19 @@
+Join the Meeting
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Meeting ID: [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Meeting PIN: [PIN]#[PIN_END]
+
+Join by Phone
+
+Use one of the numbers below and if prompted enter the Meeting ID[PIN_START] and PIN[PIN_END]
+
+ All Locations: +1 303 538 5700
+ NA Toll Free: +1 866 282 9244
+ Israel: +972 3 645 8406
+ Australia: +61 2 9352 9477
+ Canada, Ottawa: +1 613 595 9580
+ Canada, Belleville: +1 613 967 5102
+ India: +91 20 6688 6099 Press 8 before entering Meeting ID[PIN_START] and PIN[PIN_END]
+ India, Bangalore: +91 80 6715 3010 Press 8 before entering Meeting ID[PIN_START] and PIN[PIN_END]

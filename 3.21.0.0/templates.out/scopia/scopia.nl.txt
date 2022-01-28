@@ -1,0 +1,4 @@
+Doe mee aan de vergadering:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  Vergaderings-id:​ $(room)
+  Pincode vergadering:​ $(pin)

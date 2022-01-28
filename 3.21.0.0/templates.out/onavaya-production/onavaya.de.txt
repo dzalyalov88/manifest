@@ -1,0 +1,80 @@
+OnAvaya-Konferenzschaltung
+
+[PIN_START]Wenn Sie für die unten gezeigte Wählmethode zur Eingabe der PIN aufgefordert werden, geben Sie [PIN]# ein.[PIN_END]
+
+Desktop, Mobiltelefon, Webzugriff:
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Tipp: Chrome bietet Ihnen die beste Konferenzerfahrung (Audio, Video, Web).
+
+Zum Beitritt über ein H.323-Produktions-Endgerät (On Avaya) geben Sie die Besprechungs-ID ein: [MEETING_ID_WITH_SPACE_4].
+
+Sie können über ein externes H.323-Videokonferenzsystem teilnehmen:
+[PIN_START]Wenn Sie zur Eingabe der PIN aufgefordert werden, geben Sie [PIN]# ein.[PIN_END]
+Osten der USA: Geben Sie [MEETING_ID]@useastvideo.avaya.com ein.
+Westen der USA: Geben Sie [MEETING_ID]@uswestvideo.avaya.com ein.
+EMEA: Geben Sie [MEETING_ID]@emeavideo.avaya.com ein.
+APAC: Geben Sie [MEETING_ID]@apacvideo.avaya.com ein.
+
+Sie können über ein externes SIP-Videokonferenzsystem teilnehmen:
+Osten der USA: Geben Sie sips:[MEETING_ID]@useastsipvideo.avaya.com ein.
+Westen der USA: Geben Sie sips:[MEETING_ID]@uswestsipvideo.avaya.com ein.
+EMEA: Geben Sie sips:[MEETING_ID]@emeasipvideo.avaya.com ein.
+APAC: Geben Sie sips:[MEETING_ID]@apacsipvideo.avaya.com ein.
+
+Zugriff per Audioeinwahl
+Zur Verbindung über ein Mobiltelefon wählen Sie unten eine Zugriffsnummer und geben bei Aufforderung [MEETING_ID_WITH_SPACE_4] gefolgt von # ein.
+USA/Kanada (Gebührenfrei): +18662829226
+Östliche Region der USA: +15132288444
+Westliche Region der USA: +17209772444
+Argentinien: +541141198244
+Australien, Melbourne: +61392817744
+Australien, Sydney: +61293529244
+Belgien: +3227778544
+Brasilien: +551151856344
+China, Dalian: +8641183777544
+China, Guangzhou: +862022647096
+China, Peking: +861085165796
+China, Zhongshan: +8676023614088
+Dänemark: +4544737301
+Deutschland: +496975058444
+Frankreich: +33140947944
+Hongkong: +85231216288
+Indien, Bangalore: +918067153411
+Indien, Gurgaon: +911244914449
+Indien, Hyderabad: +914044317106
+Indien, Mumbai: +912233854088
+Indien, Pune: +912067247088
+Indonesien: +622125559844
+Irland: +35391733944
+Israel: +97236459112
+Italien: +390226293244
+Japan: +81355758788
+Kanada, Belleville: +16137717465
+Kanada, Ottawa: +16135959080
+Kolumbien: +5716383474
+Kroatien: +38515599849
+Malaysia: +60320593344
+Mexiko: +525552782864
+Neuseeland: +6493522396
+Niederlande: +31306097815
+Norwegen: +4722937844
+Österreich: +431878706244
+Philippinen: +6328305954
+Polen: +48225773744
+Russland: +74995004583
+Saudi Arabien, Riad: +966118342344
+Schweden: +46852207024
+Schweiz: +41448781544
+Shanghai: +862161288088
+Singapur: +6564038984
+Spanien: +34913876885
+Südafrika: +27117004622
+Südkorea: +82260074698
+Taiwan: +886281713644
+Thailand: +6626904854
+Tschechische Republik: +420222194144
+Türkei: +902129999086
+Ungarn: +3612388490
+Vereinigte Arabische Emirate: +97144048364
+Vereinigtes Königreich: +441483308844
