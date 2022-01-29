@@ -1,0 +1,7 @@
+$(conferenceType) 초대
+
+전화로 참가: $(bridgeNumber), 암호: $(room)
+
+모바일로 참가:​ tel:$(bridgeNumber),,$(room)
+
+웹 브라우저로 참가:​ $(conferenceJoinUrl)

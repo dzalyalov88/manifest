@@ -1,0 +1,13 @@
+会議に参加
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ 会議 ID：[MEETING_ID_WITH_SPACE_4][PIN_START]
+ 会議 PIN：[PIN][PIN_END]
+
+電話から参加
+
+以下の番号の 1 つを使用してプロンプトが表示されたら会議 ID[PIN_START] と PIN[PIN_END] を入力
+
+ ニューヨーク：+1-212-555-5000
+ ロンドン：+44-020-7946-0500

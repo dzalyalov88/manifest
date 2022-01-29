@@ -1,0 +1,13 @@
+加入會議
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ 會議 ID：[MEETING_ID_WITH_SPACE_4][PIN_START]
+ 會議 PIN：[PIN][PIN_END]
+
+透過電話加入
+
+使用以下其中一個電話號碼，並在系統提示時輸入會議 ID[PIN_START] 和 PIN[PIN_END]
+
+ 紐約：+1-212-555-5000
+ 倫敦：+44-020-7946-0500

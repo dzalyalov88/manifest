@@ -1,0 +1,13 @@
+Doe mee aan de vergadering
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Vergaderings-id:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Pincode vergadering:​ [PIN][PIN_END]
+
+Deelnemen via telefoon
+
+Gebruik een van onderstaande nummers en voer wanneer hierom wordt gevraagd de vergaderings-id[PIN_START] en de pincode[PIN_END] in.
+
+ New York:​ +1-212-555-5000
+ Londen:​ +44-020-7946-0500

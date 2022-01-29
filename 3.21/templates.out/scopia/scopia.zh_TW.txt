@@ -1,0 +1,4 @@
+加入會議：$(portalJoinUrl)$(room)$(pinE164)
+
+  會議 ID：$(room)
+  會議 PIN：$(pin)

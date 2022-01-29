@@ -1,0 +1,80 @@
+OnAvaya-konferanse
+
+[PIN_START]For oppringingsmetoden nedenfor, når forespurt om PIN-kode, tast inn [PIN]#.[PIN_END]
+
+Datamaskin-, Mobil-, Nett-tilgang:
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Tips: Bruk Chrome for beste konferanseopplevelse (lyd, video, nett).
+
+For å bli med fra et Production (On Avaya) H.323 endepunkt, tast inn møte-ID: [MEETING_ID_WITH_SPACE_4].
+
+Delta fra et eksternt H.323- videokonferansesystem:
+[PIN_START]Når forespurt om PIN-kode, tast inn [PIN]#.[PIN_END]
+USA Øst: Skriv inn [MEETING_ID]@useastvideo.avaya.com
+USA Vest: Skriv inn [MEETING_ID]@uswestvideo.avaya.com
+EMEA: Skriv inn [MEETING_ID]@emeavideo.avaya.com
+APAC: Skriv inn [MEETING_ID]@apacvideo.avaya.com
+
+Delta fra et eksternt SIP-videokonferansesystem:
+USA Øst: Skriv inn sips:[MEETING_ID]@useastsipvideo.avaya.com
+USA Vest: Skriv inn sips:[MEETING_ID]@uswestsipvideo.avaya.com
+EMEA: Skriv inn sips:[MEETING_ID]@emeasipvideo.avaya.com
+APAC: Skriv inn sips:[MEETING_ID]@apacsipvideo.avaya.com
+
+Lydinntastingstilgang
+For å koble til fra en telefon, tast inn et tilgangsnummer nedenfor, og, når forespurt, angi [MEETING_ID_WITH_SPACE_4] fulgt av #.
+USA/Canada (Gratisnummer): +18662829226
+USA Østregion: +15132288444
+USA Vestregion: +17209772444
+Argentina: +541141198244
+Australia, Melbourne: +61392817744
+Australia, Sydney: +61293529244
+Belgia: +3227778544
+Brasil: +551151856344
+Canada, Belleville: +16137717465
+Canada, Ottawa: +16135959080
+Colombia: +5716383474
+Danmark: +4544737301
+De forente arabiske emirater: +97144048364
+Filippinene: +6328305954
+Frankrike: +33140947944
+Hongkong: +85231216288
+India, Bangalore: +918067153411
+India, Gurgaon: +911244914449
+India, Hyderabad: +914044317106
+India, Mumbai: +912233854088
+India, Pune: +912067247088
+Indonesia: +622125559844
+Irland: +35391733944
+Israel: +97236459112
+Italia: +390226293244
+Japan: +81355758788
+Kina, Beijing: +861085165796
+Kina, Dalian: +8641183777544
+Kina, Guangzhou: +862022647096
+Kina, Zhongshan: +8676023614088
+Kroatia: +38515599849
+Malaysia: +60320593344
+Mexico: +525552782864
+Nederland: +31306097815
+New Zealand: +6493522396
+Norge: +4722937844
+Østerrike: +431878706244
+Polen: +48225773744
+Russland: +74995004583
+Saudi Arabia, Riyadh: +966118342344
+Shanghai: +862161288088
+Singapore: +6564038984
+Sør‑Afrika: +27117004622
+Sør‑Korea: +82260074698
+Spania: +34913876885
+Storbritannia: +441483308844
+Sveits: +41448781544
+Sverige: +46852207024
+Taiwan: +886281713644
+Thailand: +6626904854
+Tsjekkia: +420222194144
+Tyrkia: +902129999086
+Tyskland: +496975058444
+Ungarn: +3612388490

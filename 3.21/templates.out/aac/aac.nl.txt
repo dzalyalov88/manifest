@@ -1,0 +1,7 @@
+Uitnodiging voor $(conferenceType)
+
+Doe mee per telefoon: $(bridgeNumber), toegangscode: $(room)
+
+Deelnemen via mobiel:​ tel:$(bridgeNumber),,$(room)
+
+Deelnemen via webbrowser:​ $(conferenceJoinUrl)

@@ -1,0 +1,13 @@
+Sertai mesyuarat
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ ID mesyuarat:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ PIN mesyuarat:​ [PIN][PIN_END]
+
+Sertai melalui telefon
+
+Gunakan salah satu daripada nombor di bawah dan jika digesa, masukkan ID[PIN_START] dan PIN[PIN_END] Mesyuarat
+
+ New York:​ +1-212-555-5000
+ London:​ +44-020-7946-0500

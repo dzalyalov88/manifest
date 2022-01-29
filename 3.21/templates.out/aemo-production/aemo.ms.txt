@@ -1,0 +1,63 @@
+Sertai mesyuarat
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Untuk menyambung dari telefon, dail nombor akses di bawah.
+Apabila digesa untuk ID mesyuarat, masukkan [MEETING_ID_WITH_SPACE_4]#
+[PIN_START]Apabila digesa untuk PIN, masukkan [PIN]#[PIN_END]
+
+[DIAL-IN-LABEL] [DIAL-IN-NUMBER]
+
+Afrika Selatan: +27 53 004 0095
+Amerika Syarikat: +1 972 810 6902
+Amerika Syarikat/Kanada (Bebas Tol): +1 833 274 2366
+Argentina: +54 223 432 2621
+Australia: +61 2 8015 2112
+Australia (Bebas Tol): +611 8 0031 9261
+Austria: +43 720 884026
+Belanda: +31 10 808 0177
+Belgium: +32 52 28 01 74
+Brazil (Rio): +55 21 3500 0465
+Brazil (Sao Paulo): +55 11 3958 4754
+Chile: +56 43 245 2125
+Colombia: +57 1 5085240
+Cyprus: +357 22 000 568
+Denmark: +45 89 87 56 69
+Finland: +358 16 469 14 33
+Greece: +30 211 198 8988
+Hong Kong: +852 5808 0139
+Hungary: +36 36 884 005
+India (Bebas Tol): 1800 267 9802
+Ireland: +353 66 401 41 92
+Israel: +972 2 569 5170
+Itali: +39 06 9480 4505
+Jepun: +81 44 670 4529
+Jerman: +49 89 380 38900
+Kanada: +1 613 902 2881
+Kanada/Amerika Syarikat (Bebas Tol): +1 833 274 2366
+Korea Selatan: +82 70 7663 2326
+Luxembourg: +352 27 86 25 03
+Malaysia: +60 392 125 470
+Mexico: +52 983 980 0505
+New Zealand: +64 6 888 7002
+Norway: +47 33 99 79 52
+Panama: +507 836 5068
+Perancis: +33 1 76 36 14 15
+Peru: +51 1 7085498
+Poland: +48 65 888 10 44
+Portugal: +351 308 807 179
+Puerto Rico: +1 939 201 3179
+Republik Czech: +420 323 280 008
+Republik Dominican: +1 849 941 5304
+Romania: +40 345 630 014
+Sepanyol: +34 868 48 30 25
+Singapura: +65 3158 1984
+Slovakia: +421 37 230 29 05
+Slovenia: +386 8288 0264
+Sweden: +46 690 80 19 13
+Switzerland: +41 33 588 01 22
+United Kingdom: +44 1264 280034
+United Kingdom (Bebas Tol): +44 8000 698076
+
+Sertai dari sistem persidangan video SIP atau H.323.
+Masukkan [E164]@meetings.avaya.com
+[PIN_START]Apabila digesa untuk PIN, masukkan [PIN]#[PIN_END]

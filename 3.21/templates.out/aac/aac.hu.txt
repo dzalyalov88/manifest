@@ -1,0 +1,7 @@
+$(conferenceType) meghívó
+
+Csatlakozás telefonon: $(bridgeNumber), Jelszókód: $(room)
+
+Csatlakozás mobilról:​ tel:$(bridgeNumber),,$(room)
+
+Csatlakozás webböngészőből:​ $(conferenceJoinUrl)

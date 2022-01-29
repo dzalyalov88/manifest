@@ -1,0 +1,4 @@
+Gabung Rapat:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  ID Rapat:​ $(room)
+  PIN Rapat:​ $(pin)

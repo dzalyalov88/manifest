@@ -1,0 +1,7 @@
+Приглашение $(conferenceType)
+
+Присоединиться с телефона: $(bridgeNumber), код доступа: $(room)
+
+Присоединиться с мобильного телефона:​ tel:$(bridgeNumber),,$(room)
+
+Присоединиться через браузер:​ $(conferenceJoinUrl)

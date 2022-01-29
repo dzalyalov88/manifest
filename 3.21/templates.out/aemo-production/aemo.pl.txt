@@ -1,0 +1,63 @@
+Dołącz do spotkania
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Aby połączyć się z poziomu telefonu, należy wybrać poniższy numer dostępowy.
+Po otrzymaniu prośby o kod ID spotkania wprowadź [MEETING_ID_WITH_SPACE_4]#
+[PIN_START]Po otrzymaniu prośby o kod PIN wprowadź [PIN]#[PIN_END]
+
+[DIAL-IN-LABEL] [DIAL-IN-NUMBER]
+
+Argentyna: +54 223 432 2621
+Australia: +61 2 8015 2112
+Australia (numer bezpłatny): +611 8 0031 9261
+Austria: +43 720 884026
+Belgia: +32 52 28 01 74
+Brazylia (Rio): +55 21 3500 0465
+Brazylia (Sao Paulo): +55 11 3958 4754
+Chile: +56 43 245 2125
+Cypr: +357 22 000 568
+Czechy: +420 323 280 008
+Dania: +45 89 87 56 69
+Dominikana: +1 849 941 5304
+Finlandia: +358 16 469 14 33
+Francja: +33 1 76 36 14 15
+Grecja: +30 211 198 8988
+Hiszpania: +34 868 48 30 25
+Holandia: +31 10 808 0177
+Hongkong: +852 5808 0139
+Indie (numer bezpłatny): 1800 267 9802
+Irlandia: +353 66 401 41 92
+Izrael: +972 2 569 5170
+Japonia: +81 44 670 4529
+Kanada: +1 613 902 2881
+Kanada/USA (numer bezpłatny): +1 833 274 2366
+Kolumbia: +57 1 5085240
+Korea Południowa: +82 70 7663 2326
+Luksemburg: +352 27 86 25 03
+Malezja: +60 392 125 470
+Meksyk: +52 983 980 0505
+Niemcy: +49 89 380 38900
+Norwegia: +47 33 99 79 52
+Nowa Zelandia: +64 6 888 7002
+Panama: +507 836 5068
+Peru: +51 1 7085498
+Polska: +48 65 888 10 44
+Portoryko: +1 939 201 3179
+Portugalia: +351 308 807 179
+Republika Południowej Afryki: +27 53 004 0095
+Rumunia: +40 345 630 014
+Singapur: +65 3158 1984
+Słowacja: +421 37 230 29 05
+Słowenia: +386 8288 0264
+Szwajcaria: +41 33 588 01 22
+Szwecja: +46 690 80 19 13
+USA: +1 972 810 6902
+USA/Kanada (numer bezpłatny): +1 833 274 2366
+Węgry: +36 36 884 005
+Wielka Brytania: +44 1264 280034
+Wielka Brytania (numer bezpłatny): +44 8000 698076
+Włochy: +39 06 9480 4505
+
+Dołącz za pośrednictwem systemu wideokonferencji SIP lub H.323.
+Wprowadź [E164]@meetings.avaya.com
+[PIN_START]Po otrzymaniu prośby o kod PIN wprowadź [PIN]#[PIN_END]

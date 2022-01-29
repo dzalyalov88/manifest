@@ -1,0 +1,19 @@
+Gå med i mötet
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Mötes-ID:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Mötes-PIN:​ [PIN]#[PIN_END]
+
+Gå med via telefon
+
+Använd ett av numren nedan och ange mötes-ID och [PIN_START] och PIN[PIN_END] om du blir ombedd.
+
+ Alla platser:​ +1 303 538 5700
+ Nordamerika (Avgiftsfritt):​ +1 866 282 9244
+ Israel:​ +972 3 645 8406
+ Australien:​ +61 2 9352 9477
+ Kanada, Ottawa:​ +1 613 595 9580
+ Kanada, Belleville:​ +1 613 967 5102
+ Indien:​ +91 20 6688 6099 Tryck på 8 innan du anger Mötes-ID[PIN_START] och PIN[PIN_END]
+ Indien, Bangalore:​ +91 80 6715 3010 Tryck på 8 innan du anger Mötes-ID[PIN_START] och PIN[PIN_END]

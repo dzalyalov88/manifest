@@ -1,0 +1,7 @@
+Invitation til $(conferenceType)
+
+Deltag over telefonen: $(bridgeNumber), adgangskode: $(room)
+
+Deltag fra mobil:​ tel:$(bridgeNumber),,$(room)
+
+Deltag via webbrowser:​ $(conferenceJoinUrl)

@@ -1,0 +1,80 @@
+OnAvaya Konference
+
+[PIN_START]Når du for nedenstående opkaldsmetode bliver bedt om det, indtast PIN-kode [PIN]#.[PIN_END]
+
+Desktop, Mobil, Web-adgang:
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Tip: Brug Chrome til den bedste konferenceoplevelse (lyd, video, web).
+
+For at deltage fra et produktions- (On Avaya) H.323 slutpunkt, indtast møde-id: [MEETING_ID_WITH_SPACE_4].
+
+Deltag fra et eksternt H.323-videokonferencesystem.
+[PIN_START]Når du bliver bedt om en PIN-kode, skal du indtaste [PIN]#.[PIN_END]
+USA øst: Indtast [MEETING_ID]@useastvideo.avaya.com
+USA vest: Indtast [MEETING_ID]@uswestvideo.avaya.com
+EMEA: Indtast [MEETING_ID]@emeavideo.avaya.com
+APAC: Indtast [MEETING_ID]@apacvideo.avaya.com
+
+Deltag fra et eksternt SIP-videokonferencesystem:
+USA øst: Indtast sips:[MEETING_ID]@useastsipvideo.avaya.com
+USA vest: Indtast sips:[MEETING_ID]@uswestsipvideo.avaya.com
+EMEA: Indtast sips:[MEETING_ID]@emeasipvideo.avaya.com
+APAC: Indtast sips:[MEETING_ID]@apacsipvideo.avaya.com
+
+Lydopkaldsadgang
+For at oprette forbindelse fra en telefon skal du ringe til et adgangsnummer nedenfor, og når du bliver bedt om det, skal du indtaste [MEETING_ID_WITH_SPACE_4] efterfulgt af #.
+USA/Canada (gratisnummer): +18662829226
+USA østregion: +15132288444
+USA vestregion: +17209772444
+Argentina: +541141198244
+Australien, Melbourne: +61392817744
+Australien, Sydney: +61293529244
+Belgien: +3227778544
+Brasilien: +551151856344
+Canada, Belleville: +16137717465
+Canada, Ottawa: +16135959080
+Colombia: +5716383474
+Danmark: +4544737301
+Filippinerne: +6328305954
+Forenede Arabiske Emirater: +97144048364
+Frankrig: +33140947944
+Holland: +31306097815
+Hongkong: +85231216288
+Indien, Bangalore: +918067153411
+Indien, Gurgaon: +911244914449
+Indien, Hyderabad: +914044317106
+Indien, Mumbai: +912233854088
+Indien, Pune: +912067247088
+Indonesien: +622125559844
+Irland: +35391733944
+Israel: +97236459112
+Italien: +390226293244
+Japan: +81355758788
+Kina, Beijing: +861085165796
+Kina, Dalian: +8641183777544
+Kina, Guangzhou: +862022647096
+Kina, Zhongshan: +8676023614088
+Kroatien: +38515599849
+Malaysia: +60320593344
+Mexico: +525552782864
+New Zealand: +6493522396
+Norge: +4722937844
+Østrig: +431878706244
+Polen: +48225773744
+Rusland: +74995004583
+Saudi Arabien, Riyadh: +966118342344
+Schweiz: +41448781544
+Shanghai: +862161288088
+Singapore: +6564038984
+Spanien: +34913876885
+Storbritannien: +441483308844
+Sverige: +46852207024
+Sydafrika: +27117004622
+Sydkorea: +82260074698
+Taiwan: +886281713644
+Thailand: +6626904854
+Tjekkiet: +420222194144
+Tyrkiet: +902129999086
+Tyskland: +496975058444
+Ungarn: +3612388490

@@ -1,0 +1,13 @@
+Der Besprechung beitreten
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Besprechungs-ID:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Besprechungs-PIN:​ [PIN][PIN_END]
+
+Per Telefon beitreten
+
+Wählen Sie eine der folgenden Rufnummern und geben Sie Besprechungs-ID[PIN_START] und -PIN[PIN_END] ein, wenn Sie dazu aufgefordert werden.
+
+ New York:​ +1-212-555-5000
+ London:​ +44-020-7946-0500

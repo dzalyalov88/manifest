@@ -1,0 +1,19 @@
+Unirse a la reunión
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ ID de la reunión:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ PIN de la reunión:​ [PIN]#[PIN_END]
+
+Unirse por teléfono
+
+Utilice uno de los siguientes números y, si se le solicita, ingrese la ID[PIN_START] y el PIN[PIN_END] de la reunión.
+
+ Todas las ubicaciones:​ +1 303 538 5700
+ Norteamérica (llamada gratuita):​ +1 866 282 9244
+ Israel:​ +972 3 645 8406
+ Australia:​ +61 2 9352 9477
+ Canadá, Ottawa:​ +1 613 595 9580
+ Canadá, Belleville:​ +1 613 967 5102
+ India:​ +91 20 6688 6099 Presione 8 antes de ingresar la ID[PIN_START] y el PIN[PIN_END] de la reunión
+ India, Bangalore:​ +91 80 6715 3010 Presione 8 antes de ingresar la ID[PIN_START] y el PIN[PIN_END] de la reunión

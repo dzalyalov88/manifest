@@ -1,0 +1,63 @@
+Partecipa alla riunione
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Per connettersi da un telefono, comporre il numero di accesso qui sotto.
+Quando viene richiesto l'ID riunione, immettere [MEETING_ID_WITH_SPACE_4]#
+[PIN_START]Quando viene richiesto il PIN, immettere [PIN]#[PIN_END]
+
+[DIAL-IN-LABEL] [DIAL-IN-NUMBER]
+
+Argentina: +54 223 432 2621
+Australia: +61 2 8015 2112
+Australia (numero verde): +611 8 0031 9261
+Austria: +43 720 884026
+Belgio: +32 52 28 01 74
+Brasile (Rio): +55 21 3500 0465
+Brasile (San Paolo): +55 11 3958 4754
+Canada: +1 613 902 2881
+Canada/Stati Uniti (numero verde): +1 833 274 2366
+Cile: +56 43 245 2125
+Cipro: +357 22 000 568
+Columbia: +57 1 5085240
+Corea del Sud: +82 70 7663 2326
+Danimarca: +45 89 87 56 69
+Finlandia: +358 16 469 14 33
+Francia: +33 1 76 36 14 15
+Germania: +49 89 380 38900
+Giappone: +81 44 670 4529
+Grecia: +30 211 198 8988
+Hong Kong: +852 5808 0139
+India (numero verde): 1800 267 9802
+Irlanda: +353 66 401 41 92
+Israele: +972 2 569 5170
+Italia: +39 06 9480 4505
+Lussemburgo: +352 27 86 25 03
+Malesia: +60 392 125 470
+Messico: +52 983 980 0505
+Norvegia: +47 33 99 79 52
+Nuova Zelanda: +64 6 888 7002
+Paesi Bassi: +31 10 808 0177
+Panama: +507 836 5068
+Perù: +51 1 7085498
+Polonia: +48 65 888 10 44
+Porto Rico: +1 939 201 3179
+Portogallo: +351 308 807 179
+Regno Unito: +44 1264 280034
+Regno Unito (numero verde): +44 8000 698076
+Repubblica Ceca: +420 323 280 008
+Repubblica Dominicana: +1 849 941 5304
+Romania: +40 345 630 014
+Singapore: +65 3158 1984
+Slovacchia: +421 37 230 29 05
+Slovenia: +386 8288 0264
+Spagna: +34 868 48 30 25
+Stati Uniti: +1 972 810 6902
+Stati Uniti/Canada (numero verde): +1 833 274 2366
+Sud Africa: +27 53 004 0095
+Svezia: +46 690 80 19 13
+Svizzera: +41 33 588 01 22
+Ungheria: +36 36 884 005
+
+Partecipare tramite un sistema per videoconferenze SIP o H.323.
+Immettere [E164]@meetings.avaya.com
+[PIN_START]Quando viene richiesto il PIN, immettere [PIN]#[PIN_END]
