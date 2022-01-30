@@ -36502,27 +36502,29 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
       if (url.indexOf('http') !== 0) {
         self.btnStart.node.href = url; // ACMACOS-10782
-
-        if (navigator.vendor.indexOf('Apple') === 0) {
-          self.btnStart.node.setAttribute('target', '_blank');
-        }
+		self.btnStart.node.setAttribute('target', '_blank');
+        //if (navigator.vendor.indexOf('Apple') === 0) {
+          
+        //}
       } else {
         self.meetingUrl = url;
       }
     };
 
     InvitedView.prototype.onStart = function () {
+	  logger.info('before_openACW8:' + url);
       if (this.removingDetails) {
         return;
       }
 
       if (this.meetingUrl) {
-        logger.info('before_openACW8:' + url);
-        window.open(this.meetingUrl, '_blank'); // this.model.startMeeting();
+        
+        //window.open(this.meetingUrl, '_blank'); // this.model.startMeeting();
       }
     };
 
     InvitedView.prototype.onRemove = function () {
+	  logger.info('before_openACW8:' + url);
       if (this.removingDetails) {
         return;
       }

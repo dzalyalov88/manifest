@@ -13996,6 +13996,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
           target = '_blank';
         }
       }
+	  else if (office.webAPI)
+	  {
+		  target = '_blank';
+	  }
 
       logger.info('openWindow ' + url + ', webAPI: ' + office.webAPI + ', popup: ' + popup + ', target: ' + target);
       var wnd = window.open(url, target);
