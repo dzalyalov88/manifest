@@ -17225,7 +17225,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
           tenantId: {
             key: '$(tenantId)',
             flags: 's',
-            format: 'tenants/$0/',
+            format: 'tenants___/$0/'.replaceAll('_','T'),
             "default": 'default'
           },
           token: {
