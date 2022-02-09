@@ -17901,7 +17901,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             flags: 'S',
             format: 'UPToken $0'
           },
-          globalUniqueId: { key: '$(globalUniqueId)', flags: 's', format: encodeURIComponent('$0')},
+          globalUniqueId: { key: '$(globalUniqueId)', flags: 's', format: encodeURIComponent($0)},
         },
         response: {
           conferences: {
