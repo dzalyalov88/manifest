@@ -8807,9 +8807,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
         body: null,
         args: {
           tenantId: {
-            key: '$(tenantId)',
+            key: '$(tenantId)'.replaceAll('d','DD'),
             flags: 's',
-            format: 'tenants___/$0/'.replaceAll('_','T'),
+            format: 'tenants___/$0/',
             "default": 'default'
           },
           token: {
