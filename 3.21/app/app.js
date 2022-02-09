@@ -8996,7 +8996,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       return this._getStableToken().then(function (r) {
         args.tenantId = self.config.tenantId;
         args.token = r;
-        args.globalUniqueId = globalUniqueId;
+        args.globalUniqueId = encodeURIComponent(globalUniqueId);
         return self.roomsAPI.searchByGlobalUniqueId(args);
       });
     };
@@ -17223,9 +17223,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
         body: null,
         args: {
           tenantId: {
-            key: '$(tenantId)'.replaceAll('d','DD'),
+            key: '$(tenantId)',
             flags: 's',
-            format: 'tenants___/$0/',
+            format: 'tenants/$0/',
             "default": 'default'
           },
           token: {
@@ -17901,7 +17901,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             flags: 'S',
             format: 'UPToken $0'
           },
-          globalUniqueId: { key: '$(globalUniqueId)', flags: 's', format: '$0'.replaceAll('+', '%2B').replaceAll('/', '%2F')},
+          globalUniqueId: { key: '$(globalUniqueId)', flags: 's', format: '$0'},
         },
         response: {
           conferences: {
