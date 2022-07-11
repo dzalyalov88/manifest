@@ -7913,14 +7913,15 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
 		  
-		  if (Date(tokenInfo.token.expires) - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
+		  let expirationDate = new Date(tokenInfo.token.expires);
+		  if (expirationDate - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
 		  {
 			  logger.info("token is fresh, no needed to refresh it");
 			  return tokenInfo.token;
 		  }
 		  else
 		  {
-			  logger.info("token is not fresh:");
+			  logger.info("token is not fresh:" + expirationDate - Date.now());
 		  }
           return self.roomsAPI.refreshToken(args).then(function (r) {
             logger.info('getToken: cached token is valid');
