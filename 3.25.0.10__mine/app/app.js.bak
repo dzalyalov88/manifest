@@ -7902,8 +7902,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var self = this; // always start with resources call
 
       return this.resources({}).then(function () {
+		logger.info("ACW-23968:before _fetchTokenInfo");
         tokenInfo = self._fetchTokenInfo(); // allows to skip token check & refresh (see above)
-
+		logger.info("ACW-23968:after _fetchTokenInfo");
+		
         if (tokenInfo) {
           var args = {
             tenantId: self.config.tenantId,
@@ -7913,14 +7915,15 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
 		  
-		  if (Date(tokenInfo.token.expires) - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
+		  let expirationDate = new Date(tokenInfo.token.expires);
+		  if (expirationDate - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
 		  {
 			  logger.info("token is fresh, no needed to refresh it");
 			  return tokenInfo.token;
 		  }
 		  else
 		  {
-			  logger.info("token is not fresh:");
+			  logger.info("token is not fresh:" + expirationDate - Date.now());
 		  }
           return self.roomsAPI.refreshToken(args).then(function (r) {
             logger.info('getToken: cached token is valid');
@@ -7945,6 +7948,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             return Promise.resolve(false); // invalid token, try login with user credentials
           });
         } else {
+			logger.info("ACW-23968:no token info, try login with user credentials");
           return Promise.resolve(false); // no token info, try login with user credentials
         }
       }).then(function (r) {

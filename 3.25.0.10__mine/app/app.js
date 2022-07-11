@@ -7902,8 +7902,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var self = this; // always start with resources call
 
       return this.resources({}).then(function () {
+		logger.info("ACW-23968:before _fetchTokenInfo");
         tokenInfo = self._fetchTokenInfo(); // allows to skip token check & refresh (see above)
-
+		logger.info("ACW-23968:after _fetchTokenInfo");
+		
         if (tokenInfo) {
           var args = {
             tenantId: self.config.tenantId,
@@ -7946,6 +7948,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             return Promise.resolve(false); // invalid token, try login with user credentials
           });
         } else {
+			logger.info("ACW-23968:no token info, try login with user credentials");
           return Promise.resolve(false); // no token info, try login with user credentials
         }
       }).then(function (r) {
@@ -8039,7 +8042,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var expires = (tokenInfo.expires || 0) - dtn;
 
       if (expires >= 60 * 1000) {
-        logger.info('token, use cached token ' + user + ' expires in ' + expires);
+        logger.info('token, use caaaached token ' + user + ' expires in ' + expires);
         return Promise.resolve(tokenInfo);
       }
 
