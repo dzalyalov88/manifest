@@ -7539,7 +7539,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
         var config = params[0];
         var checkOffice = params[1].checkOffice;
 
-        if (!config.forceRefresh && !Storage.getItem('accessToken')) {
+        if (!config.forceRefresh && !Storage.getItem('accessToken') && ) {
           // to do only if sso3
           logger.info('ask for credentials because accesToken is null');
           config.forceRefresh = true;
@@ -7924,7 +7924,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
 		  logger.info("ACW-23968:before comparison:" + tokenInfo.expires);
-		  let expirationDate = new Date(tokenInfo.token.expires);
+		  let expirationDate = new Date(tokenInfo.expires);
 		  let currentTime = new Date();
 		  
 		  expirationDate.setHours(expirationDate.getHours() - 23);

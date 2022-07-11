@@ -7539,7 +7539,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
         var config = params[0];
         var checkOffice = params[1].checkOffice;
 
-        if (!config.forceRefresh && !Storage.getItem('accessToken')) {
+        if (!config.forceRefresh && !Storage.getItem('accessToken') && (Storage.getItem("AVAYA_UNIFIED_PORTAL_SSO") == '3')) {
           // to do only if sso3
           logger.info('ask for credentials because accesToken is null');
           config.forceRefresh = true;
