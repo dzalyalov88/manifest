@@ -7578,8 +7578,17 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       //var key = 'token:' + this.config.settings.unifiedPortalUsername;
       var key = 'token:' + 'UPTOKEN';
       var stokenInfo = Storage.getItem(key);
-      logger.cred('token, use cached token ' + key + ':' + stokenInfo, stokenInfo && ((_JSON$parse = JSON.parse(stokenInfo)) === null || _JSON$parse === void 0 ? void 0 : _JSON$parse.passwordHash));
+      logger.cred('token, use caaaached token ' + key + ':' + stokenInfo, stokenInfo && ((_JSON$parse = JSON.parse(stokenInfo)) === null || _JSON$parse === void 0 ? void 0 : _JSON$parse.passwordHash));
       var tokenInfo = stokenInfo ? this._safeJSONParse(stokenInfo) : null;
+	  if (tokenInfo == null)
+	  {
+		  logger.info('ACW-23968:tokenInfo is null');
+	  }
+	  else
+	  {
+		  logger.info('ACW-23968:tokenInfo is not null');
+	  }
+	  
       return tokenInfo; // comment this to skip token check & refresh 
 
       var dtn = Date.now();
@@ -8042,7 +8051,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var expires = (tokenInfo.expires || 0) - dtn;
 
       if (expires >= 60 * 1000) {
-        logger.info('token, use cached token ' + user + ' expires in ' + expires);
+        logger.info('token, use caaaached token ' + user + ' expires in ' + expires);
         return Promise.resolve(tokenInfo);
       }
 

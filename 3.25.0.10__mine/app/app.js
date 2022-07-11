@@ -7578,8 +7578,17 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       //var key = 'token:' + this.config.settings.unifiedPortalUsername;
       var key = 'token:' + 'UPTOKEN';
       var stokenInfo = Storage.getItem(key);
-      logger.cred('token, use cached token ' + key + ':' + stokenInfo, stokenInfo && ((_JSON$parse = JSON.parse(stokenInfo)) === null || _JSON$parse === void 0 ? void 0 : _JSON$parse.passwordHash));
+      logger.cred('token, use caaaached token ' + key + ':' + stokenInfo, stokenInfo && ((_JSON$parse = JSON.parse(stokenInfo)) === null || _JSON$parse === void 0 ? void 0 : _JSON$parse.passwordHash));
       var tokenInfo = stokenInfo ? this._safeJSONParse(stokenInfo) : null;
+	  if (tokenInfo == null)
+	  {
+		  logger.info('ACW-23968:tokenInfo is null');
+	  }
+	  else
+	  {
+		  logger.info('ACW-23968:tokenInfo is not null');
+	  }
+	  
       return tokenInfo; // comment this to skip token check & refresh 
 
       var dtn = Date.now();
@@ -7914,15 +7923,19 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             passwordHash: tokenInfo.passwordHash,
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
-		  
+		  logger.info("ACW-23968:before comparison");
 		  let expirationDate = new Date(tokenInfo.token.expires);
-		  if (expirationDate - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
+		  
+		  expirationDate.setHours(expirationDate.getHours() - 23);
+		  logger.info("ACW-23968:before comparison2");
+		  if (expirationDate > Date.now()) //token expires in 23 hours and 58 minutes.
 		  {
 			  logger.info("token is fresh, no needed to refresh it");
 			  return tokenInfo.token;
 		  }
 		  else
 		  {
+			  logger.info("ACW-23968:before comparison3");
 			  logger.info("token is not fresh:" + expirationDate - Date.now());
 		  }
           return self.roomsAPI.refreshToken(args).then(function (r) {
