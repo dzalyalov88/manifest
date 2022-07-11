@@ -7925,10 +7925,11 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
           }; // check vaild token or refresh expired one via password hash
 		  logger.info("ACW-23968:before comparison");
 		  let expirationDate = new Date(tokenInfo.token.expires);
+		  let currentTime = new Date();
 		  
 		  expirationDate.setHours(expirationDate.getHours() - 23);
 		  logger.info("ACW-23968:before comparison2");
-		  if (expirationDate > Date.now()) //token expires in 23 hours and 58 minutes.
+		  if (expirationDate > currentTime) //token expires in 23 hours and 58 minutes.
 		  {
 			  logger.info("token is fresh, no needed to refresh it");
 			  return tokenInfo.token;
@@ -7936,7 +7937,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 		  else
 		  {
 			  logger.info("ACW-23968:before comparison3");
-			  logger.info("token is not fresh:" + expirationDate - Date.now());
+			  logger.info("token is not fresh:" + expirationDate.getTime() - currentTime.getTime());
 		  }
           return self.roomsAPI.refreshToken(args).then(function (r) {
             logger.info('getToken: cached token is valid');

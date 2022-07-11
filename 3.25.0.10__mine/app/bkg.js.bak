@@ -804,7 +804,14 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       var stokenInfo = Storage.getItem(key);
       logger.cred('token, use caaached token ' + key + ':' + stokenInfo, stokenInfo && ((_JSON$parse = JSON.parse(stokenInfo)) === null || _JSON$parse === void 0 ? void 0 : _JSON$parse.passwordHash));
       var tokenInfo = stokenInfo ? this._safeJSONParse(stokenInfo) : null;
-	  
+	  if (tokenInfo == null)
+	  {
+		  logger.info('ACW-23968:tokenInfo is null');
+	  }
+	  else
+	  {
+		  logger.info('ACW-23968:tokenInfo is not null');
+	  }
 	  
       return tokenInfo; // comment this to skip token check & refresh 
 
@@ -1153,7 +1160,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 		  else
 		  {
 			  logger.info("ACW-23968:before comparison3");
-			  logger.info("token is not fresh:" + expirationDate - Date.now());
+			  logger.info("token is not fresh:" + expirationDate.getTime() - Date.now().getTime());
 		  }
           return self.roomsAPI.refreshToken(args).then(function (r) {
             logger.info('getToken: cached token is valid');
