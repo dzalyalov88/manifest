@@ -1137,7 +1137,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
 
-		  if (tokenInfo.token.expires - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
+		  if (Date(tokenInfo.token.expires) - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
 		  {
 			  logger.info("token is fresh, no needed to refresh it");
 			  return tokenInfo.token;
