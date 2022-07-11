@@ -1147,7 +1147,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             passwordHash: tokenInfo.passwordHash,
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
-		  logger.info("ACW-23968:before comparison");
+		  logger.info("ACW-23968:before comparison:" + tokenInfo.token.expires);
 		  let expirationDate = new Date(tokenInfo.token.expires);
 		  let currentTime = new Date();
 		  
