@@ -7912,7 +7912,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
             passwordHash: tokenInfo.passwordHash,
             aliasId: self.config.tenantId
           }; // check vaild token or refresh expired one via password hash
-
+		  
+		  if (tokenInfo.token.expires - Date.now() > 86280000) //token expires in 23 hours and 58 minutes.
+		  {
+			  logger.info("token is fresh, no needed to refresh it");
+			  return tokenInfo.token;
+		  }
           return self.roomsAPI.refreshToken(args).then(function (r) {
             logger.info('getToken: cached token is valid');
 
@@ -23389,7 +23394,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
       if (office.webAPI) {
         args.skipReservation = true;
       }
-	  logger.info('ACW-23968:pollTopics');
+	  //logger.info('ACW-23968:pollTopics');
       var self = this;
       return this.rooms.getRooms(args).then(function (rooms) {
         if (!rooms || rooms.length === 0) {
