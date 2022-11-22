@@ -1,0 +1,4 @@
+加入会议：$(portalJoinUrl)$(room)$(pinE164)
+
+  会议 ID：$(room)
+  会议 PIN 码：$(pin)

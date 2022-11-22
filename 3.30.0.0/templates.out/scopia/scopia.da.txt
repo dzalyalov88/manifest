@@ -1,0 +1,4 @@
+Deltag i mødet:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  Møde-id:​ $(room)
+  PIN-kode til mødet:​ $(pin)

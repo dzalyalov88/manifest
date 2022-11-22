@@ -1,0 +1,4 @@
+Csatlakozás értekezlethez:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  Értekezlet azonosító:​ $(room)
+  Értekezlet PIN-kód:​ $(pin)

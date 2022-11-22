@@ -1,0 +1,63 @@
+Rejoindre la réunion
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Pour vous connecter depuis un téléphone, composez l'un des numéros d'accès ci-dessous.
+Lorsque vous êtes invité à saisir l'ID de réunion, entrez [MEETING_ID_WITH_SPACE_4]#
+[PIN_START]Lorsque vous êtes invité à saisir le code PIN, entrez [PIN]#[PIN_END]
+
+[DIAL-IN-LABEL] [DIAL-IN-NUMBER]
+
+Afrique du Sud : +27 53 004 0095
+Allemagne : +49 89 380 38900
+Argentine : +54 223 432 2621
+Australie : +61 2 8015 2112
+Australie (numéro gratuit) : +611 8 0031 9261
+Autriche : +43 720 884026
+Belgique : +32 52 28 01 74
+Brésil (Rio) : +55 21 3500 0465
+Brésil (Sao Paulo) : +55 11 3958 4754
+Canada : +1 613 902 2881
+Canada/États-Unis (numéro gratuit) : +1 833 274 2366
+Chili : +56 43 245 2125
+Chypre : +357 22 000 568
+Columbia : +57 1 5085240
+Corée du Sud : +82 70 7663 2326
+Danemark : +45 89 87 56 69
+Espagne : +34 868 48 30 25
+États-Unis/Canada (numéro gratuit) : +1 833 274 2366
+États‑Unis : +1 972 810 6902
+Finlande : +358 16 469 14 33
+France : +33 1 76 36 14 15
+Grèce : +30 211 198 8988
+Hong Kong : +852 5808 0139
+Hongrie : +36 36 884 005
+Inde (numéro gratuit) : 1800 267 9802
+Irlande : +353 66 401 41 92
+Israël : +972 2 569 5170
+Italie : +39 06 9480 4505
+Japon : +81 44 670 4529
+Luxembourg : +352 27 86 25 03
+Malaisie : +60 392 125 470
+Mexique : +52 983 980 0505
+Norvège : +47 33 99 79 52
+Nouvelle‑Zélande : +64 6 888 7002
+Panama : +507 836 5068
+Pays‑Bas : +31 10 808 0177
+Pérou : +51 1 7085498
+Pologne : +48 65 888 10 44
+Porto Rico : +1 939 201 3179
+Portugal : +351 308 807 179
+République dominicaine : +1 849 941 5304
+République tchèque : +420 323 280 008
+Roumanie : +40 345 630 014
+Royaume‑Uni : +44 1264 280034
+Royaume‑Uni (numéro gratuit) : +44 8000 698076
+Singapour : +65 3158 1984
+Slovaquie : +421 37 230 29 05
+Slovénie : +386 8288 0264
+Suède : +46 690 80 19 13
+Suisse : +41 33 588 01 22
+
+Rejoindre à partir d'un système de vidéoconférence SIP ou H.323.
+Entrez [E164]@meetings.avaya.com
+[PIN_START]Lorsque vous êtes invité à saisir le code PIN, entrez [PIN]#[PIN_END]

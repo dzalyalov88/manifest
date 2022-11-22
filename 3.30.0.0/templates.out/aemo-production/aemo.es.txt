@@ -1,0 +1,63 @@
+Unirse a la reunión
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+Para conectarse usando un teléfono, marque un número de acceso a continuación.
+Cuando se le solicite la ID de la reunión, introduzca [MEETING_ID_WITH_SPACE_4]#
+[PIN_START]Cuando se le solicite el PIN, introduzca [PIN]#[PIN_END]
+
+[DIAL-IN-LABEL] [DIAL-IN-NUMBER]
+
+Alemania: +49 89 380 38900
+Argentina: +54 223 432 2621
+Australia: +61 2 8015 2112
+Australia (llamada gratuita): +611 8 0031 9261
+Austria: +43 720 884026
+Bélgica: +32 52 28 01 74
+Brasil (Rio): +55 21 3500 0465
+Brasil (Sao Paulo): +55 11 3958 4754
+Canadá: +1 613 902 2881
+Canadá/EE. UU. (llamada gratuita): +1 833 274 2366
+Chile: +56 43 245 2125
+Chipre: +357 22 000 568
+Columbia: +57 1 5085240
+Corea del Sur: +82 70 7663 2326
+Dinamarca: +45 89 87 56 69
+EE. UU.: +1 972 810 6902
+EE. UU./Canadá (llamada gratuita): +1 833 274 2366
+Eslovaquia: +421 37 230 29 05
+Eslovenia: +386 8288 0264
+España: +34 868 48 30 25
+Finlandia: +358 16 469 14 33
+Francia: +33 1 76 36 14 15
+Grecia: +30 211 198 8988
+Hong Kong: +852 5808 0139
+Hungría: +36 36 884 005
+India (llamada gratuita): 1800 267 9802
+Irlanda: +353 66 401 41 92
+Israel: +972 2 569 5170
+Italia: +39 06 9480 4505
+Japón: +81 44 670 4529
+Luxemburgo: +352 27 86 25 03
+Malasia: +60 392 125 470
+México: +52 983 980 0505
+Noruega: +47 33 99 79 52
+Nueva Zelanda: +64 6 888 7002
+Países Bajos: +31 10 808 0177
+Panamá: +507 836 5068
+Perú: +51 1 7085498
+Polonia: +48 65 888 10 44
+Portugal: +351 308 807 179
+Puerto Rico: +1 939 201 3179
+Reino Unido: +44 1264 280034
+Reino Unido (llamada gratuita): +44 8000 698076
+República Checa: +420 323 280 008
+República Dominicana: +1 849 941 5304
+Rumanía: +40 345 630 014
+Singapur: +65 3158 1984
+Sudáfrica: +27 53 004 0095
+Suecia: +46 690 80 19 13
+Suiza: +41 33 588 01 22
+
+Unirse desde un sistema de videoconferencia SIP o H.323.
+Introduzca [E164]@meetings.avaya.com
+[PIN_START]Cuando se le solicite el PIN, introduzca [PIN]#[PIN_END]

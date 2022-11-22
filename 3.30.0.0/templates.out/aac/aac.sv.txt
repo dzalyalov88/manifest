@@ -1,0 +1,7 @@
+Inbjudan till $(conferenceType)
+
+Anslut via telefon: $(bridgeNumber), Lösenord: $(room)
+
+Anslut via mobil:​ tel:$(bridgeNumber),,$(room)
+
+Anslut via webbläsare:​ $(conferenceJoinUrl)

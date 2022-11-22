@@ -1,0 +1,19 @@
+Sertai mesyuarat
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ ID mesyuarat:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ PIN mesyuarat:​ [PIN]#[PIN_END]
+
+Sertai melalui telefon
+
+Gunakan salah satu daripada nombor di bawah dan jika digesa, masukkan ID[PIN_START] dan PIN[PIN_END] Mesyuarat
+
+ Semua Lokasi:​ +1 303 538 5700
+ Amerika Utara (Bebas Tol):​ +1 866 282 9244
+ Israel:​ +972 3 645 8406
+ Australia:​ +61 2 9352 9477
+ Kanada, Ottawa:​ +1 613 595 9580
+ Kanada, Belleville:​ +1 613 967 5102
+ India:​ +91 20 6688 6099 Tekan 8 sebelum memasukkan ID[PIN_START] dan PIN[PIN_END] Mesyuarat
+ India, Bangalore:​ +91 80 6715 3010 Tekan 8 sebelum memasukkan ID[PIN_START] dan PIN[PIN_END] Mesyuarat

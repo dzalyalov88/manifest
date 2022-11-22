@@ -1,0 +1,4 @@
+Dołącz do spotkania:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  ID spotkania:​ $(room)
+  PIN spotkania:​ $(pin)

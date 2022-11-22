@@ -1,0 +1,19 @@
+Bli med i møtet
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Møte-ID:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Møte-PIN:​ [PIN]#[PIN_END]
+
+Delta på telefon
+
+Bruk ett av numrene nedenfor og, hvis anmodet, angi møte-ID[PIN_START] og PIN[PIN_END]
+
+ Alle steder:​ +1 303 538 5700
+ Nord-Amerika (Gratisnummer):​ +1 866 282 9244
+ Israel:​ +972 3 645 8406
+ Australia:​ +61 2 9352 9477
+ Canada, Ottawa:​ +1 613 595 9580
+ Canada, Belleville:​ +1 613 967 5102
+ India:​ +91 20 6688 6099 Trykk 8 før du taster inn møte-ID[PIN_START] og PIN[PIN_END]
+ India, Bangalore:​ +91 80 6715 3010 Trykk 8 før du taster inn møte-ID[PIN_START] og PIN[PIN_END]

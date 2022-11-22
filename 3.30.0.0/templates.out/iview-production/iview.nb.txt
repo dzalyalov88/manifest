@@ -1,0 +1,13 @@
+Bli med i møtet
+
+[DESKTOP_MOBILE_ACCESS_LINK]
+
+ Møte-ID:​ [MEETING_ID_WITH_SPACE_4][PIN_START]
+ Møte-PIN:​ [PIN][PIN_END]
+
+Delta på telefon
+
+Bruk ett av numrene nedenfor og, hvis anmodet, angi møte-ID[PIN_START] og PIN[PIN_END]
+
+ New York:​ +1-212-555-5000
+ London:​ +44-020-7946-0500

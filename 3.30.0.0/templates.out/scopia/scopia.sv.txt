@@ -1,0 +1,4 @@
+Anslut till mötet:​ $(portalJoinUrl)$(room)$(pinE164)
+
+  Mötes-ID:​ $(room)
+  Mötes-PIN:​ $(pin)

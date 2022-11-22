@@ -1,0 +1,7 @@
+$(conferenceType) Daveti
+
+Telefonla katıl: $(bridgeNumber), Şifre: $(room)
+
+Cep telefonu ile katıl:​ tel:$(bridgeNumber),,$(room)
+
+Web tarayıcısı ile katıl:​ $(conferenceJoinUrl)
