@@ -1,4 +1,4 @@
-SET SIP_CONTROLLER_LIST tsi101d-sip1.richlab.avaya.com5061;transport=TLS,tsi101d-sip1.richlab.avaya.com5060;transport=TCP,tsi101d-sip2.richlab.avaya.com5061;transport=TLS,tsi101d-sip2.richlab.avaya.com5060;transport=TCP
+#SET SIP_CONTROLLER_LIST tsi101d-sip1.richlab.avaya.com5061;transport=TLS,tsi101d-sip1.richlab.avaya.com5060;transport=TCP,tsi101d-sip2.richlab.avaya.com5061;transport=TLS,tsi101d-sip2.richlab.avaya.com5060;transport=TCP
 SET SIPPROXYSRVR tsi101d-sip1.richlab.avaya.com
 SET SIPPORT 5061
 SET SIPSECURE 1
